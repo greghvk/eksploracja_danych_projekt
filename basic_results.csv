@@ -1,0 +1,19 @@
+,Dataset,Vectorizer,Classifier,Accuracy
+0,Amazon,CountVectorizer,NaiveBayes,0.8212121212121212
+1,Amazon,CountVectorizer,Support Vector Machine,0.8090909090909091
+2,Amazon,CountVectorizer,Random Forest,0.7757575757575758
+3,Amazon,Tfidf,NaiveBayes,0.8090909090909091
+4,Amazon,Tfidf,Support Vector Machine,0.803030303030303
+5,Amazon,Tfidf,Random Forest,0.8090909090909091
+6,IMDb,CountVectorizer,NaiveBayes,0.7813765182186235
+7,IMDb,CountVectorizer,Support Vector Machine,0.6963562753036437
+8,IMDb,CountVectorizer,Random Forest,0.7165991902834008
+9,IMDb,Tfidf,NaiveBayes,0.7813765182186235
+10,IMDb,Tfidf,Support Vector Machine,0.7692307692307693
+11,IMDb,Tfidf,Random Forest,0.6680161943319838
+12,Yelp,CountVectorizer,NaiveBayes,0.8151515151515152
+13,Yelp,CountVectorizer,Support Vector Machine,0.793939393939394
+14,Yelp,CountVectorizer,Random Forest,0.796969696969697
+15,Yelp,Tfidf,NaiveBayes,0.8212121212121212
+16,Yelp,Tfidf,Support Vector Machine,0.8515151515151516
+17,Yelp,Tfidf,Random Forest,0.7818181818181819

@@ -1,0 +1,55 @@
+,Train dataset,Test dataset,Vectorizer,Classifier,Accuracy
+0,Amazon,Amazon,CountVectorizer,NaiveBayes,0.8121212121212121
+1,Amazon,IMDb,CountVectorizer,NaiveBayes,0.8121212121212121
+2,Amazon,Yelp,CountVectorizer,NaiveBayes,0.8121212121212121
+3,Amazon,Amazon,CountVectorizer,Support Vector Machine,0.793939393939394
+4,Amazon,IMDb,CountVectorizer,Support Vector Machine,0.793939393939394
+5,Amazon,Yelp,CountVectorizer,Support Vector Machine,0.793939393939394
+6,Amazon,Amazon,CountVectorizer,Random Forest,0.8181818181818182
+7,Amazon,IMDb,CountVectorizer,Random Forest,0.7727272727272727
+8,Amazon,Yelp,CountVectorizer,Random Forest,0.7848484848484848
+9,Amazon,Amazon,Tfidf,NaiveBayes,0.8272727272727273
+10,Amazon,IMDb,Tfidf,NaiveBayes,0.8272727272727273
+11,Amazon,Yelp,Tfidf,NaiveBayes,0.8272727272727273
+12,Amazon,Amazon,Tfidf,Support Vector Machine,0.8454545454545455
+13,Amazon,IMDb,Tfidf,Support Vector Machine,0.8454545454545455
+14,Amazon,Yelp,Tfidf,Support Vector Machine,0.8454545454545455
+15,Amazon,Amazon,Tfidf,Random Forest,0.7787878787878788
+16,Amazon,IMDb,Tfidf,Random Forest,0.7909090909090909
+17,Amazon,Yelp,Tfidf,Random Forest,0.796969696969697
+18,IMDb,Amazon,CountVectorizer,NaiveBayes,0.8121212121212121
+19,IMDb,IMDb,CountVectorizer,NaiveBayes,0.8121212121212121
+20,IMDb,Yelp,CountVectorizer,NaiveBayes,0.8121212121212121
+21,IMDb,Amazon,CountVectorizer,Support Vector Machine,0.793939393939394
+22,IMDb,IMDb,CountVectorizer,Support Vector Machine,0.793939393939394
+23,IMDb,Yelp,CountVectorizer,Support Vector Machine,0.793939393939394
+24,IMDb,Amazon,CountVectorizer,Random Forest,0.803030303030303
+25,IMDb,IMDb,CountVectorizer,Random Forest,0.8
+26,IMDb,Yelp,CountVectorizer,Random Forest,0.7848484848484848
+27,IMDb,Amazon,Tfidf,NaiveBayes,0.8272727272727273
+28,IMDb,IMDb,Tfidf,NaiveBayes,0.8272727272727273
+29,IMDb,Yelp,Tfidf,NaiveBayes,0.8272727272727273
+30,IMDb,Amazon,Tfidf,Support Vector Machine,0.8454545454545455
+31,IMDb,IMDb,Tfidf,Support Vector Machine,0.8454545454545455
+32,IMDb,Yelp,Tfidf,Support Vector Machine,0.8454545454545455
+33,IMDb,Amazon,Tfidf,Random Forest,0.806060606060606
+34,IMDb,IMDb,Tfidf,Random Forest,0.803030303030303
+35,IMDb,Yelp,Tfidf,Random Forest,0.7848484848484848
+36,Yelp,Amazon,CountVectorizer,NaiveBayes,0.8121212121212121
+37,Yelp,IMDb,CountVectorizer,NaiveBayes,0.8121212121212121
+38,Yelp,Yelp,CountVectorizer,NaiveBayes,0.8121212121212121
+39,Yelp,Amazon,CountVectorizer,Support Vector Machine,0.793939393939394
+40,Yelp,IMDb,CountVectorizer,Support Vector Machine,0.793939393939394
+41,Yelp,Yelp,CountVectorizer,Support Vector Machine,0.793939393939394
+42,Yelp,Amazon,CountVectorizer,Random Forest,0.8090909090909091
+43,Yelp,IMDb,CountVectorizer,Random Forest,0.803030303030303
+44,Yelp,Yelp,CountVectorizer,Random Forest,0.7878787878787878
+45,Yelp,Amazon,Tfidf,NaiveBayes,0.8272727272727273
+46,Yelp,IMDb,Tfidf,NaiveBayes,0.8272727272727273
+47,Yelp,Yelp,Tfidf,NaiveBayes,0.8272727272727273
+48,Yelp,Amazon,Tfidf,Support Vector Machine,0.8454545454545455
+49,Yelp,IMDb,Tfidf,Support Vector Machine,0.8454545454545455
+50,Yelp,Yelp,Tfidf,Support Vector Machine,0.8454545454545455
+51,Yelp,Amazon,Tfidf,Random Forest,0.8090909090909091
+52,Yelp,IMDb,Tfidf,Random Forest,0.7818181818181819
+53,Yelp,Yelp,Tfidf,Random Forest,0.7848484848484848
