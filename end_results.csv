@@ -1,217 +1,577 @@
-,DataSet,Vectorizer,Stopword removing,Punctuation removing,Morphing,Classifier,Accuracy
-0,Amazon,Tfidf,on,on,lemmitizer,NaiveBayes,0.7787878787878788
-1,Amazon,Tfidf,on,on,stemmer,NaiveBayes,0.8090909090909091
-2,Amazon,Tfidf,on,on,turned off,NaiveBayes,0.793939393939394
-3,Amazon,Tfidf,off,on,lemmitizer,NaiveBayes,0.793939393939394
-4,Amazon,Tfidf,off,on,stemmer,NaiveBayes,0.8212121212121212
-5,Amazon,Tfidf,off,on,turned off,NaiveBayes,0.803030303030303
-6,Amazon,Tfidf,on,off,lemmitizer,NaiveBayes,0.7818181818181819
-7,Amazon,Tfidf,on,off,stemmer,NaiveBayes,0.7909090909090909
-8,Amazon,Tfidf,on,off,turned off,NaiveBayes,0.8090909090909091
-9,Amazon,Tfidf,off,off,lemmitizer,NaiveBayes,0.803030303030303
-10,Amazon,Tfidf,off,off,stemmer,NaiveBayes,0.8303030303030303
-11,Amazon,Tfidf,off,off,turned off,NaiveBayes,0.803030303030303
-12,Amazon,Count Vectorizer,on,on,lemmitizer,NaiveBayes,0.7848484848484848
-13,Amazon,Count Vectorizer,on,on,stemmer,NaiveBayes,0.8212121212121212
-14,Amazon,Count Vectorizer,on,on,turned off,NaiveBayes,0.803030303030303
-15,Amazon,Count Vectorizer,off,on,lemmitizer,NaiveBayes,0.793939393939394
-16,Amazon,Count Vectorizer,off,on,stemmer,NaiveBayes,0.8242424242424242
-17,Amazon,Count Vectorizer,off,on,turned off,NaiveBayes,0.803030303030303
-18,Amazon,Count Vectorizer,on,off,lemmitizer,NaiveBayes,0.7818181818181819
-19,Amazon,Count Vectorizer,on,off,stemmer,NaiveBayes,0.8090909090909091
-20,Amazon,Count Vectorizer,on,off,turned off,NaiveBayes,0.803030303030303
-21,Amazon,Count Vectorizer,off,off,lemmitizer,NaiveBayes,0.7909090909090909
-22,Amazon,Count Vectorizer,off,off,stemmer,NaiveBayes,0.8333333333333334
-23,Amazon,Count Vectorizer,off,off,turned off,NaiveBayes,0.8090909090909091
-24,Amazon,Tfidf,on,on,lemmitizer,Support Vector Machine,0.7636363636363637
-25,Amazon,Tfidf,on,on,stemmer,Support Vector Machine,0.7909090909090909
-26,Amazon,Tfidf,on,on,turned off,Support Vector Machine,0.7818181818181819
-27,Amazon,Tfidf,off,on,lemmitizer,Support Vector Machine,0.7909090909090909
-28,Amazon,Tfidf,off,on,stemmer,Support Vector Machine,0.8090909090909091
-29,Amazon,Tfidf,off,on,turned off,Support Vector Machine,0.8121212121212121
-30,Amazon,Tfidf,on,off,lemmitizer,Support Vector Machine,0.7575757575757576
-31,Amazon,Tfidf,on,off,stemmer,Support Vector Machine,0.796969696969697
-32,Amazon,Tfidf,on,off,turned off,Support Vector Machine,0.793939393939394
-33,Amazon,Tfidf,off,off,lemmitizer,Support Vector Machine,0.8
-34,Amazon,Tfidf,off,off,stemmer,Support Vector Machine,0.8181818181818182
-35,Amazon,Tfidf,off,off,turned off,Support Vector Machine,0.806060606060606
-36,Amazon,Count Vectorizer,on,on,lemmitizer,Support Vector Machine,0.7515151515151515
-37,Amazon,Count Vectorizer,on,on,stemmer,Support Vector Machine,0.7787878787878788
-38,Amazon,Count Vectorizer,on,on,turned off,Support Vector Machine,0.7909090909090909
-39,Amazon,Count Vectorizer,off,on,lemmitizer,Support Vector Machine,0.7787878787878788
-40,Amazon,Count Vectorizer,off,on,stemmer,Support Vector Machine,0.803030303030303
-41,Amazon,Count Vectorizer,off,on,turned off,Support Vector Machine,0.793939393939394
-42,Amazon,Count Vectorizer,on,off,lemmitizer,Support Vector Machine,0.7606060606060606
-43,Amazon,Count Vectorizer,on,off,stemmer,Support Vector Machine,0.7878787878787878
-44,Amazon,Count Vectorizer,on,off,turned off,Support Vector Machine,0.7787878787878788
-45,Amazon,Count Vectorizer,off,off,lemmitizer,Support Vector Machine,0.7909090909090909
-46,Amazon,Count Vectorizer,off,off,stemmer,Support Vector Machine,0.8151515151515152
-47,Amazon,Count Vectorizer,off,off,turned off,Support Vector Machine,0.8
-48,Amazon,Tfidf,on,on,lemmitizer,Random Forest,0.7303030303030303
-49,Amazon,Tfidf,on,on,stemmer,Random Forest,0.7181818181818181
-50,Amazon,Tfidf,on,on,turned off,Random Forest,0.7515151515151515
-51,Amazon,Tfidf,off,on,lemmitizer,Random Forest,0.7818181818181819
-52,Amazon,Tfidf,off,on,stemmer,Random Forest,0.7818181818181819
-53,Amazon,Tfidf,off,on,turned off,Random Forest,0.793939393939394
-54,Amazon,Tfidf,on,off,lemmitizer,Random Forest,0.7212121212121212
-55,Amazon,Tfidf,on,off,stemmer,Random Forest,0.7242424242424242
-56,Amazon,Tfidf,on,off,turned off,Random Forest,0.7515151515151515
-57,Amazon,Tfidf,off,off,lemmitizer,Random Forest,0.7878787878787878
-58,Amazon,Tfidf,off,off,stemmer,Random Forest,0.8090909090909091
-59,Amazon,Tfidf,off,off,turned off,Random Forest,0.806060606060606
-60,Amazon,Count Vectorizer,on,on,lemmitizer,Random Forest,0.7575757575757576
-61,Amazon,Count Vectorizer,on,on,stemmer,Random Forest,0.7787878787878788
-62,Amazon,Count Vectorizer,on,on,turned off,Random Forest,0.7545454545454545
-63,Amazon,Count Vectorizer,off,on,lemmitizer,Random Forest,0.793939393939394
-64,Amazon,Count Vectorizer,off,on,stemmer,Random Forest,0.7818181818181819
-65,Amazon,Count Vectorizer,off,on,turned off,Random Forest,0.796969696969697
-66,Amazon,Count Vectorizer,on,off,lemmitizer,Random Forest,0.7727272727272727
-67,Amazon,Count Vectorizer,on,off,stemmer,Random Forest,0.7757575757575758
-68,Amazon,Count Vectorizer,on,off,turned off,Random Forest,0.7606060606060606
-69,Amazon,Count Vectorizer,off,off,lemmitizer,Random Forest,0.8090909090909091
-70,Amazon,Count Vectorizer,off,off,stemmer,Random Forest,0.803030303030303
-71,Amazon,Count Vectorizer,off,off,turned off,Random Forest,0.8151515151515152
-72,IMDb,Tfidf,on,on,lemmitizer,NaiveBayes,0.7813765182186235
-73,IMDb,Tfidf,on,on,stemmer,NaiveBayes,0.8016194331983806
-74,IMDb,Tfidf,on,on,turned off,NaiveBayes,0.7975708502024291
-75,IMDb,Tfidf,off,on,lemmitizer,NaiveBayes,0.7732793522267206
-76,IMDb,Tfidf,off,on,stemmer,NaiveBayes,0.7975708502024291
-77,IMDb,Tfidf,off,on,turned off,NaiveBayes,0.7611336032388664
-78,IMDb,Tfidf,on,off,lemmitizer,NaiveBayes,0.7692307692307693
-79,IMDb,Tfidf,on,off,stemmer,NaiveBayes,0.7975708502024291
-80,IMDb,Tfidf,on,off,turned off,NaiveBayes,0.7894736842105263
-81,IMDb,Tfidf,off,off,lemmitizer,NaiveBayes,0.7773279352226721
-82,IMDb,Tfidf,off,off,stemmer,NaiveBayes,0.805668016194332
-83,IMDb,Tfidf,off,off,turned off,NaiveBayes,0.7813765182186235
-84,IMDb,Count Vectorizer,on,on,lemmitizer,NaiveBayes,0.7246963562753036
-85,IMDb,Count Vectorizer,on,on,stemmer,NaiveBayes,0.7692307692307693
-86,IMDb,Count Vectorizer,on,on,turned off,NaiveBayes,0.7530364372469636
-87,IMDb,Count Vectorizer,off,on,lemmitizer,NaiveBayes,0.7530364372469636
-88,IMDb,Count Vectorizer,off,on,stemmer,NaiveBayes,0.7530364372469636
-89,IMDb,Count Vectorizer,off,on,turned off,NaiveBayes,0.7611336032388664
-90,IMDb,Count Vectorizer,on,off,lemmitizer,NaiveBayes,0.757085020242915
-91,IMDb,Count Vectorizer,on,off,stemmer,NaiveBayes,0.7651821862348178
-92,IMDb,Count Vectorizer,on,off,turned off,NaiveBayes,0.7773279352226721
-93,IMDb,Count Vectorizer,off,off,lemmitizer,NaiveBayes,0.7732793522267206
-94,IMDb,Count Vectorizer,off,off,stemmer,NaiveBayes,0.757085020242915
-95,IMDb,Count Vectorizer,off,off,turned off,NaiveBayes,0.7935222672064778
-96,IMDb,Tfidf,on,on,lemmitizer,Support Vector Machine,0.7854251012145749
-97,IMDb,Tfidf,on,on,stemmer,Support Vector Machine,0.7894736842105263
-98,IMDb,Tfidf,on,on,turned off,Support Vector Machine,0.7813765182186235
-99,IMDb,Tfidf,off,on,lemmitizer,Support Vector Machine,0.7692307692307693
-100,IMDb,Tfidf,off,on,stemmer,Support Vector Machine,0.7975708502024291
-101,IMDb,Tfidf,off,on,turned off,Support Vector Machine,0.7732793522267206
-102,IMDb,Tfidf,on,off,lemmitizer,Support Vector Machine,0.7692307692307693
-103,IMDb,Tfidf,on,off,stemmer,Support Vector Machine,0.8016194331983806
-104,IMDb,Tfidf,on,off,turned off,Support Vector Machine,0.7894736842105263
-105,IMDb,Tfidf,off,off,lemmitizer,Support Vector Machine,0.7692307692307693
-106,IMDb,Tfidf,off,off,stemmer,Support Vector Machine,0.7935222672064778
-107,IMDb,Tfidf,off,off,turned off,Support Vector Machine,0.7732793522267206
-108,IMDb,Count Vectorizer,on,on,lemmitizer,Support Vector Machine,0.7732793522267206
-109,IMDb,Count Vectorizer,on,on,stemmer,Support Vector Machine,0.7813765182186235
-110,IMDb,Count Vectorizer,on,on,turned off,Support Vector Machine,0.7651821862348178
-111,IMDb,Count Vectorizer,off,on,lemmitizer,Support Vector Machine,0.7327935222672065
-112,IMDb,Count Vectorizer,off,on,stemmer,Support Vector Machine,0.7530364372469636
-113,IMDb,Count Vectorizer,off,on,turned off,Support Vector Machine,0.7206477732793523
-114,IMDb,Count Vectorizer,on,off,lemmitizer,Support Vector Machine,0.7408906882591093
-115,IMDb,Count Vectorizer,on,off,stemmer,Support Vector Machine,0.7530364372469636
-116,IMDb,Count Vectorizer,on,off,turned off,Support Vector Machine,0.7408906882591093
-117,IMDb,Count Vectorizer,off,off,lemmitizer,Support Vector Machine,0.728744939271255
-118,IMDb,Count Vectorizer,off,off,stemmer,Support Vector Machine,0.728744939271255
-119,IMDb,Count Vectorizer,off,off,turned off,Support Vector Machine,0.6963562753036437
-120,IMDb,Tfidf,on,on,lemmitizer,Random Forest,0.728744939271255
-121,IMDb,Tfidf,on,on,stemmer,Random Forest,0.7692307692307693
-122,IMDb,Tfidf,on,on,turned off,Random Forest,0.708502024291498
-123,IMDb,Tfidf,off,on,lemmitizer,Random Forest,0.659919028340081
-124,IMDb,Tfidf,off,on,stemmer,Random Forest,0.708502024291498
-125,IMDb,Tfidf,off,on,turned off,Random Forest,0.6882591093117408
-126,IMDb,Tfidf,on,off,lemmitizer,Random Forest,0.7489878542510121
-127,IMDb,Tfidf,on,off,stemmer,Random Forest,0.7368421052631579
-128,IMDb,Tfidf,on,off,turned off,Random Forest,0.6963562753036437
-129,IMDb,Tfidf,off,off,lemmitizer,Random Forest,0.6558704453441295
-130,IMDb,Tfidf,off,off,stemmer,Random Forest,0.708502024291498
-131,IMDb,Tfidf,off,off,turned off,Random Forest,0.6396761133603239
-132,IMDb,Count Vectorizer,on,on,lemmitizer,Random Forest,0.7246963562753036
-133,IMDb,Count Vectorizer,on,on,stemmer,Random Forest,0.728744939271255
-134,IMDb,Count Vectorizer,on,on,turned off,Random Forest,0.7004048582995951
-135,IMDb,Count Vectorizer,off,on,lemmitizer,Random Forest,0.6882591093117408
-136,IMDb,Count Vectorizer,off,on,stemmer,Random Forest,0.7246963562753036
-137,IMDb,Count Vectorizer,off,on,turned off,Random Forest,0.6720647773279352
-138,IMDb,Count Vectorizer,on,off,lemmitizer,Random Forest,0.708502024291498
-139,IMDb,Count Vectorizer,on,off,stemmer,Random Forest,0.7165991902834008
-140,IMDb,Count Vectorizer,on,off,turned off,Random Forest,0.6720647773279352
-141,IMDb,Count Vectorizer,off,off,lemmitizer,Random Forest,0.7327935222672065
-142,IMDb,Count Vectorizer,off,off,stemmer,Random Forest,0.728744939271255
-143,IMDb,Count Vectorizer,off,off,turned off,Random Forest,0.7044534412955465
-144,Yelp,Tfidf,on,on,lemmitizer,NaiveBayes,0.7696969696969697
-145,Yelp,Tfidf,on,on,stemmer,NaiveBayes,0.7787878787878788
-146,Yelp,Tfidf,on,on,turned off,NaiveBayes,0.7727272727272727
-147,Yelp,Tfidf,off,on,lemmitizer,NaiveBayes,0.8121212121212121
-148,Yelp,Tfidf,off,on,stemmer,NaiveBayes,0.8181818181818182
-149,Yelp,Tfidf,off,on,turned off,NaiveBayes,0.8242424242424242
-150,Yelp,Tfidf,on,off,lemmitizer,NaiveBayes,0.7727272727272727
-151,Yelp,Tfidf,on,off,stemmer,NaiveBayes,0.7666666666666667
-152,Yelp,Tfidf,on,off,turned off,NaiveBayes,0.7575757575757576
-153,Yelp,Tfidf,off,off,lemmitizer,NaiveBayes,0.8121212121212121
-154,Yelp,Tfidf,off,off,stemmer,NaiveBayes,0.8090909090909091
-155,Yelp,Tfidf,off,off,turned off,NaiveBayes,0.8121212121212121
-156,Yelp,Count Vectorizer,on,on,lemmitizer,NaiveBayes,0.7757575757575758
-157,Yelp,Count Vectorizer,on,on,stemmer,NaiveBayes,0.7848484848484848
-158,Yelp,Count Vectorizer,on,on,turned off,NaiveBayes,0.7818181818181819
-159,Yelp,Count Vectorizer,off,on,lemmitizer,NaiveBayes,0.8
-160,Yelp,Count Vectorizer,off,on,stemmer,NaiveBayes,0.8090909090909091
-161,Yelp,Count Vectorizer,off,on,turned off,NaiveBayes,0.8
-162,Yelp,Count Vectorizer,on,off,lemmitizer,NaiveBayes,0.7636363636363637
-163,Yelp,Count Vectorizer,on,off,stemmer,NaiveBayes,0.7636363636363637
-164,Yelp,Count Vectorizer,on,off,turned off,NaiveBayes,0.7727272727272727
-165,Yelp,Count Vectorizer,off,off,lemmitizer,NaiveBayes,0.806060606060606
-166,Yelp,Count Vectorizer,off,off,stemmer,NaiveBayes,0.806060606060606
-167,Yelp,Count Vectorizer,off,off,turned off,NaiveBayes,0.803030303030303
-168,Yelp,Tfidf,on,on,lemmitizer,Support Vector Machine,0.7666666666666667
-169,Yelp,Tfidf,on,on,stemmer,Support Vector Machine,0.7787878787878788
-170,Yelp,Tfidf,on,on,turned off,Support Vector Machine,0.7727272727272727
-171,Yelp,Tfidf,off,on,lemmitizer,Support Vector Machine,0.8333333333333334
-172,Yelp,Tfidf,off,on,stemmer,Support Vector Machine,0.8424242424242424
-173,Yelp,Tfidf,off,on,turned off,Support Vector Machine,0.8454545454545455
-174,Yelp,Tfidf,on,off,lemmitizer,Support Vector Machine,0.7696969696969697
-175,Yelp,Tfidf,on,off,stemmer,Support Vector Machine,0.7757575757575758
-176,Yelp,Tfidf,on,off,turned off,Support Vector Machine,0.7575757575757576
-177,Yelp,Tfidf,off,off,lemmitizer,Support Vector Machine,0.8484848484848485
-178,Yelp,Tfidf,off,off,stemmer,Support Vector Machine,0.8424242424242424
-179,Yelp,Tfidf,off,off,turned off,Support Vector Machine,0.8454545454545455
-180,Yelp,Count Vectorizer,on,on,lemmitizer,Support Vector Machine,0.7787878787878788
-181,Yelp,Count Vectorizer,on,on,stemmer,Support Vector Machine,0.7787878787878788
-182,Yelp,Count Vectorizer,on,on,turned off,Support Vector Machine,0.796969696969697
-183,Yelp,Count Vectorizer,off,on,lemmitizer,Support Vector Machine,0.803030303030303
-184,Yelp,Count Vectorizer,off,on,stemmer,Support Vector Machine,0.8090909090909091
-185,Yelp,Count Vectorizer,off,on,turned off,Support Vector Machine,0.806060606060606
-186,Yelp,Count Vectorizer,on,off,lemmitizer,Support Vector Machine,0.7484848484848485
-187,Yelp,Count Vectorizer,on,off,stemmer,Support Vector Machine,0.7636363636363637
-188,Yelp,Count Vectorizer,on,off,turned off,Support Vector Machine,0.7636363636363637
-189,Yelp,Count Vectorizer,off,off,lemmitizer,Support Vector Machine,0.8212121212121212
-190,Yelp,Count Vectorizer,off,off,stemmer,Support Vector Machine,0.8151515151515152
-191,Yelp,Count Vectorizer,off,off,turned off,Support Vector Machine,0.8090909090909091
-192,Yelp,Tfidf,on,on,lemmitizer,Random Forest,0.793939393939394
-193,Yelp,Tfidf,on,on,stemmer,Random Forest,0.8
-194,Yelp,Tfidf,on,on,turned off,Random Forest,0.796969696969697
-195,Yelp,Tfidf,off,on,lemmitizer,Random Forest,0.7878787878787878
-196,Yelp,Tfidf,off,on,stemmer,Random Forest,0.803030303030303
-197,Yelp,Tfidf,off,on,turned off,Random Forest,0.8151515151515152
-198,Yelp,Tfidf,on,off,lemmitizer,Random Forest,0.7818181818181819
-199,Yelp,Tfidf,on,off,stemmer,Random Forest,0.806060606060606
-200,Yelp,Tfidf,on,off,turned off,Random Forest,0.7848484848484848
-201,Yelp,Tfidf,off,off,lemmitizer,Random Forest,0.7848484848484848
-202,Yelp,Tfidf,off,off,stemmer,Random Forest,0.7878787878787878
-203,Yelp,Tfidf,off,off,turned off,Random Forest,0.7787878787878788
-204,Yelp,Count Vectorizer,on,on,lemmitizer,Random Forest,0.7909090909090909
-205,Yelp,Count Vectorizer,on,on,stemmer,Random Forest,0.7818181818181819
-206,Yelp,Count Vectorizer,on,on,turned off,Random Forest,0.7909090909090909
-207,Yelp,Count Vectorizer,off,on,lemmitizer,Random Forest,0.8242424242424242
-208,Yelp,Count Vectorizer,off,on,stemmer,Random Forest,0.8181818181818182
-209,Yelp,Count Vectorizer,off,on,turned off,Random Forest,0.8
-210,Yelp,Count Vectorizer,on,off,lemmitizer,Random Forest,0.7515151515151515
-211,Yelp,Count Vectorizer,on,off,stemmer,Random Forest,0.7696969696969697
-212,Yelp,Count Vectorizer,on,off,turned off,Random Forest,0.7484848484848485
-213,Yelp,Count Vectorizer,off,off,lemmitizer,Random Forest,0.7787878787878788
-214,Yelp,Count Vectorizer,off,off,stemmer,Random Forest,0.8090909090909091
-215,Yelp,Count Vectorizer,off,off,turned off,Random Forest,0.7818181818181819
+,DataSet,Vectorizer,Stopword removing,Punctuation removing,Morphing,Classifier,Accuracy,Precision,Recall,Fscore
+0,Amazon,Tfidf,on,on,lemmitizer,NaiveBayes,0.7787878787878788,0.7474226804123711,0.8579881656804734,0.7988980716253443
+1,Amazon,Tfidf,on,on,stemmer,NaiveBayes,0.8090909090909091,0.7676767676767676,0.8994082840236687,0.8283378746594006
+2,Amazon,Tfidf,on,on,turned off,NaiveBayes,0.793939393939394,0.7643979057591623,0.863905325443787,0.8111111111111111
+3,Amazon,Tfidf,off,on,lemmitizer,NaiveBayes,0.793939393939394,0.7759562841530054,0.8402366863905325,0.8068181818181818
+4,Amazon,Tfidf,off,on,stemmer,NaiveBayes,0.8212121212121212,0.7956989247311828,0.8757396449704142,0.8338028169014083
+5,Amazon,Tfidf,off,on,turned off,NaiveBayes,0.803030303030303,0.7921348314606742,0.834319526627219,0.8126801152737751
+6,Amazon,Tfidf,on,off,lemmitizer,NaiveBayes,0.7818181818181819,0.7566137566137566,0.8461538461538461,0.7988826815642458
+7,Amazon,Tfidf,on,off,stemmer,NaiveBayes,0.7909090909090909,0.75,0.8875739644970414,0.8130081300813007
+8,Amazon,Tfidf,on,off,turned off,NaiveBayes,0.8090909090909091,0.7849462365591398,0.863905325443787,0.8225352112676056
+9,Amazon,Tfidf,off,off,lemmitizer,NaiveBayes,0.803030303030303,0.7888888888888889,0.8402366863905325,0.813753581661891
+10,Amazon,Tfidf,off,off,stemmer,NaiveBayes,0.8303030303030303,0.8087431693989071,0.8757396449704142,0.8409090909090909
+11,Amazon,Tfidf,off,off,turned off,NaiveBayes,0.803030303030303,0.7921348314606742,0.834319526627219,0.8126801152737751
+12,Amazon,Count Vectorizer,on,on,lemmitizer,NaiveBayes,0.7848484848484848,0.7401960784313726,0.893491124260355,0.8096514745308312
+13,Amazon,Count Vectorizer,on,on,stemmer,NaiveBayes,0.8212121212121212,0.7777777777777778,0.9112426035502958,0.8392370572207084
+14,Amazon,Count Vectorizer,on,on,turned off,NaiveBayes,0.803030303030303,0.76,0.8994082840236687,0.8238482384823849
+15,Amazon,Count Vectorizer,off,on,lemmitizer,NaiveBayes,0.793939393939394,0.7821229050279329,0.8284023668639053,0.8045977011494252
+16,Amazon,Count Vectorizer,off,on,stemmer,NaiveBayes,0.8242424242424242,0.8066298342541437,0.863905325443787,0.8342857142857144
+17,Amazon,Count Vectorizer,off,on,turned off,NaiveBayes,0.803030303030303,0.7954545454545454,0.8284023668639053,0.8115942028985507
+18,Amazon,Count Vectorizer,on,off,lemmitizer,NaiveBayes,0.7818181818181819,0.7487179487179487,0.863905325443787,0.8021978021978022
+19,Amazon,Count Vectorizer,on,off,stemmer,NaiveBayes,0.8090909090909091,0.7731958762886598,0.8875739644970414,0.8264462809917356
+20,Amazon,Count Vectorizer,on,off,turned off,NaiveBayes,0.803030303030303,0.776595744680851,0.863905325443787,0.8179271708683472
+21,Amazon,Count Vectorizer,off,off,lemmitizer,NaiveBayes,0.7909090909090909,0.7873563218390804,0.8106508875739645,0.7988338192419825
+22,Amazon,Count Vectorizer,off,off,stemmer,NaiveBayes,0.8333333333333334,0.8202247191011236,0.863905325443787,0.8414985590778098
+23,Amazon,Count Vectorizer,off,off,turned off,NaiveBayes,0.8090909090909091,0.8011363636363636,0.834319526627219,0.817391304347826
+24,Amazon,Tfidf,on,on,lemmitizer,Support Vector Machine,0.7636363636363637,0.7898089171974523,0.7337278106508875,0.7607361963190183
+25,Amazon,Tfidf,on,on,stemmer,Support Vector Machine,0.7909090909090909,0.8048780487804879,0.7810650887573964,0.7927927927927928
+26,Amazon,Tfidf,on,on,turned off,Support Vector Machine,0.7818181818181819,0.8299319727891157,0.7218934911242604,0.7721518987341772
+27,Amazon,Tfidf,off,on,lemmitizer,Support Vector Machine,0.7909090909090909,0.8333333333333334,0.7396449704142012,0.7836990595611285
+28,Amazon,Tfidf,off,on,stemmer,Support Vector Machine,0.8090909090909091,0.8354430379746836,0.7810650887573964,0.8073394495412844
+29,Amazon,Tfidf,off,on,turned off,Support Vector Machine,0.8121212121212121,0.8496732026143791,0.7692307692307693,0.8074534161490683
+30,Amazon,Tfidf,on,off,lemmitizer,Support Vector Machine,0.7575757575757576,0.8111888111888111,0.6863905325443787,0.7435897435897435
+31,Amazon,Tfidf,on,off,stemmer,Support Vector Machine,0.796969696969697,0.8445945945945946,0.7396449704142012,0.7886435331230284
+32,Amazon,Tfidf,on,off,turned off,Support Vector Machine,0.793939393939394,0.8435374149659864,0.7337278106508875,0.7848101265822786
+33,Amazon,Tfidf,off,off,lemmitizer,Support Vector Machine,0.8,0.8551724137931035,0.7337278106508875,0.7898089171974522
+34,Amazon,Tfidf,off,off,stemmer,Support Vector Machine,0.8181818181818182,0.8609271523178808,0.7692307692307693,0.8125000000000001
+35,Amazon,Tfidf,off,off,turned off,Support Vector Machine,0.806060606060606,0.8571428571428571,0.7455621301775148,0.7974683544303799
+36,Amazon,Count Vectorizer,on,on,lemmitizer,Support Vector Machine,0.7515151515151515,0.7735849056603774,0.727810650887574,0.7500000000000001
+37,Amazon,Count Vectorizer,on,on,stemmer,Support Vector Machine,0.7787878787878788,0.7926829268292683,0.7692307692307693,0.7807807807807808
+38,Amazon,Count Vectorizer,on,on,turned off,Support Vector Machine,0.7909090909090909,0.7873563218390804,0.8106508875739645,0.7988338192419825
+39,Amazon,Count Vectorizer,off,on,lemmitizer,Support Vector Machine,0.7787878787878788,0.7727272727272727,0.8047337278106509,0.7884057971014493
+40,Amazon,Count Vectorizer,off,on,stemmer,Support Vector Machine,0.803030303030303,0.7888888888888889,0.8402366863905325,0.813753581661891
+41,Amazon,Count Vectorizer,off,on,turned off,Support Vector Machine,0.793939393939394,0.791907514450867,0.8106508875739645,0.8011695906432749
+42,Amazon,Count Vectorizer,on,off,lemmitizer,Support Vector Machine,0.7606060606060606,0.7960526315789473,0.7159763313609467,0.7538940809968847
+43,Amazon,Count Vectorizer,on,off,stemmer,Support Vector Machine,0.7878787878787878,0.8152866242038217,0.757396449704142,0.7852760736196318
+44,Amazon,Count Vectorizer,on,off,turned off,Support Vector Machine,0.7787878787878788,0.8037974683544303,0.7514792899408284,0.7767584097859327
+45,Amazon,Count Vectorizer,off,off,lemmitizer,Support Vector Machine,0.7909090909090909,0.8012048192771084,0.7869822485207101,0.7940298507462688
+46,Amazon,Count Vectorizer,off,off,stemmer,Support Vector Machine,0.8151515151515152,0.8176470588235294,0.8224852071005917,0.8200589970501475
+47,Amazon,Count Vectorizer,off,off,turned off,Support Vector Machine,0.8,0.8083832335329342,0.7988165680473372,0.8035714285714286
+48,Amazon,Tfidf,on,on,lemmitizer,Decision Tree,0.706060606060606,0.7195121951219512,0.6982248520710059,0.7087087087087086
+49,Amazon,Tfidf,on,on,stemmer,Decision Tree,0.693939393939394,0.7236842105263158,0.650887573964497,0.6853582554517135
+50,Amazon,Tfidf,on,on,turned off,Decision Tree,0.7272727272727273,0.7801418439716312,0.650887573964497,0.7096774193548387
+51,Amazon,Tfidf,off,on,lemmitizer,Decision Tree,0.7272727272727273,0.7651006711409396,0.6745562130177515,0.7169811320754718
+52,Amazon,Tfidf,off,on,stemmer,Decision Tree,0.7333333333333333,0.7425149700598802,0.7337278106508875,0.7380952380952381
+53,Amazon,Tfidf,off,on,turned off,Decision Tree,0.7090909090909091,0.7588652482269503,0.6331360946745562,0.6903225806451613
+54,Amazon,Tfidf,on,off,lemmitizer,Decision Tree,0.7121212121212122,0.75,0.6568047337278107,0.7003154574132492
+55,Amazon,Tfidf,on,off,stemmer,Decision Tree,0.696969696969697,0.7412587412587412,0.6272189349112426,0.6794871794871794
+56,Amazon,Tfidf,on,off,turned off,Decision Tree,0.7121212121212122,0.7605633802816901,0.6390532544378699,0.6945337620578779
+57,Amazon,Tfidf,off,off,lemmitizer,Decision Tree,0.7090909090909091,0.7417218543046358,0.6627218934911243,0.7000000000000001
+58,Amazon,Tfidf,off,off,stemmer,Decision Tree,0.7545454545454545,0.775,0.7337278106508875,0.7537993920972644
+59,Amazon,Tfidf,off,off,turned off,Decision Tree,0.7151515151515152,0.7622377622377622,0.6449704142011834,0.6987179487179488
+60,Amazon,Count Vectorizer,on,on,lemmitizer,Decision Tree,0.7303030303030303,0.7631578947368421,0.6863905325443787,0.7227414330218069
+61,Amazon,Count Vectorizer,on,on,stemmer,Decision Tree,0.7515151515151515,0.7701863354037267,0.7337278106508875,0.7515151515151516
+62,Amazon,Count Vectorizer,on,on,turned off,Decision Tree,0.7303030303030303,0.7564102564102564,0.6982248520710059,0.7261538461538461
+63,Amazon,Count Vectorizer,off,on,lemmitizer,Decision Tree,0.7696969696969697,0.7751479289940828,0.7751479289940828,0.7751479289940828
+64,Amazon,Count Vectorizer,off,on,stemmer,Decision Tree,0.7818181818181819,0.793939393939394,0.7751479289940828,0.7844311377245509
+65,Amazon,Count Vectorizer,off,on,turned off,Decision Tree,0.7515151515151515,0.8085106382978723,0.6745562130177515,0.735483870967742
+66,Amazon,Count Vectorizer,on,off,lemmitizer,Decision Tree,0.7212121212121212,0.7583892617449665,0.6686390532544378,0.710691823899371
+67,Amazon,Count Vectorizer,on,off,stemmer,Decision Tree,0.7333333333333333,0.7579617834394905,0.7041420118343196,0.7300613496932516
+68,Amazon,Count Vectorizer,on,off,turned off,Decision Tree,0.7363636363636363,0.7697368421052632,0.6923076923076923,0.7289719626168224
+69,Amazon,Count Vectorizer,off,off,lemmitizer,Decision Tree,0.7575757575757576,0.7870967741935484,0.7218934911242604,0.7530864197530864
+70,Amazon,Count Vectorizer,off,off,stemmer,Decision Tree,0.7424242424242424,0.7560975609756098,0.7337278106508875,0.7447447447447446
+71,Amazon,Count Vectorizer,off,off,turned off,Decision Tree,0.7606060606060606,0.8409090909090909,0.6568047337278107,0.7375415282392027
+72,Amazon,Tfidf,on,on,lemmitizer,Random Forest,0.7272727272727273,0.8110236220472441,0.6094674556213018,0.6959459459459458
+73,Amazon,Tfidf,on,on,stemmer,Random Forest,0.7424242424242424,0.8134328358208955,0.6449704142011834,0.7194719471947194
+74,Amazon,Tfidf,on,on,turned off,Random Forest,0.7515151515151515,0.8270676691729323,0.650887573964497,0.7284768211920528
+75,Amazon,Tfidf,off,on,lemmitizer,Random Forest,0.796969696969697,0.8493150684931506,0.7337278106508875,0.7873015873015872
+76,Amazon,Tfidf,off,on,stemmer,Random Forest,0.793939393939394,0.8435374149659864,0.7337278106508875,0.7848101265822786
+77,Amazon,Tfidf,off,on,turned off,Random Forest,0.7757575757575758,0.8571428571428571,0.6745562130177515,0.7549668874172185
+78,Amazon,Tfidf,on,off,lemmitizer,Random Forest,0.7363636363636363,0.8059701492537313,0.6390532544378699,0.7128712871287128
+79,Amazon,Tfidf,on,off,stemmer,Random Forest,0.7090909090909091,0.7664233576642335,0.621301775147929,0.6862745098039216
+80,Amazon,Tfidf,on,off,turned off,Random Forest,0.7545454545454545,0.8333333333333334,0.650887573964497,0.7308970099667774
+81,Amazon,Tfidf,off,off,lemmitizer,Random Forest,0.7787878787878788,0.8428571428571429,0.6982248520710059,0.7637540453074433
+82,Amazon,Tfidf,off,off,stemmer,Random Forest,0.793939393939394,0.8581560283687943,0.7159763313609467,0.7806451612903226
+83,Amazon,Tfidf,off,off,turned off,Random Forest,0.8090909090909091,0.8897058823529411,0.7159763313609467,0.7934426229508197
+84,Amazon,Count Vectorizer,on,on,lemmitizer,Random Forest,0.7515151515151515,0.8041958041958042,0.6804733727810651,0.7371794871794871
+85,Amazon,Count Vectorizer,on,on,stemmer,Random Forest,0.7666666666666667,0.7875,0.7455621301775148,0.7659574468085107
+86,Amazon,Count Vectorizer,on,on,turned off,Random Forest,0.7393939393939394,0.782312925170068,0.6804733727810651,0.7278481012658228
+87,Amazon,Count Vectorizer,off,on,lemmitizer,Random Forest,0.7878787878787878,0.8074534161490683,0.7692307692307693,0.787878787878788
+88,Amazon,Count Vectorizer,off,on,stemmer,Random Forest,0.8,0.8121212121212121,0.7928994082840237,0.8023952095808383
+89,Amazon,Count Vectorizer,off,on,turned off,Random Forest,0.796969696969697,0.84,0.7455621301775148,0.7899686520376176
+90,Amazon,Count Vectorizer,on,off,lemmitizer,Random Forest,0.7545454545454545,0.7933333333333333,0.7041420118343196,0.7460815047021945
+91,Amazon,Count Vectorizer,on,off,stemmer,Random Forest,0.7757575757575758,0.7950310559006211,0.757396449704142,0.7757575757575758
+92,Amazon,Count Vectorizer,on,off,turned off,Random Forest,0.7545454545454545,0.8013698630136986,0.6923076923076923,0.7428571428571428
+93,Amazon,Count Vectorizer,off,off,lemmitizer,Random Forest,0.806060606060606,0.8301886792452831,0.7810650887573964,0.8048780487804879
+94,Amazon,Count Vectorizer,off,off,stemmer,Random Forest,0.8303030303030303,0.8304093567251462,0.8402366863905325,0.8352941176470589
+95,Amazon,Count Vectorizer,off,off,turned off,Random Forest,0.806060606060606,0.8523489932885906,0.7514792899408284,0.7987421383647797
+96,Amazon,Tfidf,on,on,lemmitizer,XGBoost,0.6848484848484848,0.768595041322314,0.5502958579881657,0.6413793103448275
+97,Amazon,Tfidf,on,on,stemmer,XGBoost,0.696969696969697,0.8,0.5443786982248521,0.6478873239436621
+98,Amazon,Tfidf,on,on,turned off,XGBoost,0.7090909090909091,0.811965811965812,0.5621301775147929,0.6643356643356644
+99,Amazon,Tfidf,off,on,lemmitizer,XGBoost,0.7454545454545455,0.8455284552845529,0.6153846153846154,0.7123287671232876
+100,Amazon,Tfidf,off,on,stemmer,XGBoost,0.7606060606060606,0.8629032258064516,0.6331360946745562,0.7303754266211605
+101,Amazon,Tfidf,off,on,turned off,XGBoost,0.7484848484848485,0.8524590163934426,0.6153846153846154,0.7147766323024055
+102,Amazon,Tfidf,on,off,lemmitizer,XGBoost,0.696969696969697,0.7899159663865546,0.5562130177514792,0.6527777777777777
+103,Amazon,Tfidf,on,off,stemmer,XGBoost,0.706060606060606,0.8157894736842105,0.5502958579881657,0.657243816254417
+104,Amazon,Tfidf,on,off,turned off,XGBoost,0.7242424242424242,0.8362068965517241,0.5739644970414202,0.6807017543859648
+105,Amazon,Tfidf,off,off,lemmitizer,XGBoost,0.7545454545454545,0.8492063492063492,0.6331360946745562,0.7254237288135593
+106,Amazon,Tfidf,off,off,stemmer,XGBoost,0.7636363636363637,0.8582677165354331,0.6449704142011834,0.7364864864864865
+107,Amazon,Tfidf,off,off,turned off,XGBoost,0.7454545454545455,0.8695652173913043,0.591715976331361,0.7042253521126761
+108,Amazon,Count Vectorizer,on,on,lemmitizer,XGBoost,0.7,0.7966101694915254,0.5562130177514792,0.6550522648083624
+109,Amazon,Count Vectorizer,on,on,stemmer,XGBoost,0.706060606060606,0.8,0.5680473372781065,0.6643598615916956
+110,Amazon,Count Vectorizer,on,on,turned off,XGBoost,0.693939393939394,0.8090909090909091,0.5266272189349113,0.6379928315412187
+111,Amazon,Count Vectorizer,off,on,lemmitizer,XGBoost,0.696969696969697,0.7948717948717948,0.5502958579881657,0.6503496503496504
+112,Amazon,Count Vectorizer,off,on,stemmer,XGBoost,0.7212121212121212,0.808,0.5976331360946746,0.6870748299319729
+113,Amazon,Count Vectorizer,off,on,turned off,XGBoost,0.7242424242424242,0.825,0.5857988165680473,0.685121107266436
+114,Amazon,Count Vectorizer,on,off,lemmitizer,XGBoost,0.696969696969697,0.7948717948717948,0.5502958579881657,0.6503496503496504
+115,Amazon,Count Vectorizer,on,off,stemmer,XGBoost,0.7090909090909091,0.7967479674796748,0.5798816568047337,0.6712328767123288
+116,Amazon,Count Vectorizer,on,off,turned off,XGBoost,0.7181818181818181,0.8166666666666667,0.5798816568047337,0.6782006920415224
+117,Amazon,Count Vectorizer,off,off,lemmitizer,XGBoost,0.7212121212121212,0.8290598290598291,0.5739644970414202,0.6783216783216783
+118,Amazon,Count Vectorizer,off,off,stemmer,XGBoost,0.7242424242424242,0.8095238095238095,0.6035502958579881,0.6915254237288135
+119,Amazon,Count Vectorizer,off,off,turned off,XGBoost,0.7242424242424242,0.8421052631578947,0.5680473372781065,0.6784452296819788
+120,Amazon,Tfidf,on,on,lemmitizer,logreg_classifier,0.7757575757575758,0.8231292517006803,0.7159763313609467,0.7658227848101266
+121,Amazon,Tfidf,on,on,stemmer,logreg_classifier,0.796969696969697,0.8355263157894737,0.7514792899408284,0.7912772585669782
+122,Amazon,Tfidf,on,on,turned off,logreg_classifier,0.7757575757575758,0.8275862068965517,0.7100591715976331,0.7643312101910827
+123,Amazon,Tfidf,off,on,lemmitizer,logreg_classifier,0.806060606060606,0.8431372549019608,0.7633136094674556,0.8012422360248448
+124,Amazon,Tfidf,off,on,stemmer,logreg_classifier,0.8212121212121212,0.8571428571428571,0.7810650887573964,0.8173374613003095
+125,Amazon,Tfidf,off,on,turned off,logreg_classifier,0.8181818181818182,0.8609271523178808,0.7692307692307693,0.8125000000000001
+126,Amazon,Tfidf,on,off,lemmitizer,logreg_classifier,0.7545454545454545,0.8188405797101449,0.6686390532544378,0.7361563517915309
+127,Amazon,Tfidf,on,off,stemmer,logreg_classifier,0.7666666666666667,0.8194444444444444,0.6982248520710059,0.7539936102236422
+128,Amazon,Tfidf,on,off,turned off,logreg_classifier,0.7727272727272727,0.8309859154929577,0.6982248520710059,0.7588424437299036
+129,Amazon,Tfidf,off,off,lemmitizer,logreg_classifier,0.8,0.8456375838926175,0.7455621301775148,0.7924528301886793
+130,Amazon,Tfidf,off,off,stemmer,logreg_classifier,0.8212121212121212,0.8666666666666667,0.7692307692307693,0.8150470219435738
+131,Amazon,Tfidf,off,off,turned off,logreg_classifier,0.8090909090909091,0.8581081081081081,0.7514792899408284,0.801261829652997
+132,Amazon,Count Vectorizer,on,on,lemmitizer,logreg_classifier,0.7787878787878788,0.7926829268292683,0.7692307692307693,0.7807807807807808
+133,Amazon,Count Vectorizer,on,on,stemmer,logreg_classifier,0.7848484848484848,0.7951807228915663,0.7810650887573964,0.7880597014925372
+134,Amazon,Count Vectorizer,on,on,turned off,logreg_classifier,0.7727272727272727,0.8012820512820513,0.7396449704142012,0.7692307692307693
+135,Amazon,Count Vectorizer,off,on,lemmitizer,logreg_classifier,0.796969696969697,0.8227848101265823,0.7692307692307693,0.7951070336391437
+136,Amazon,Count Vectorizer,off,on,stemmer,logreg_classifier,0.803030303030303,0.8132530120481928,0.7988165680473372,0.8059701492537313
+137,Amazon,Count Vectorizer,off,on,turned off,logreg_classifier,0.803030303030303,0.8291139240506329,0.7751479289940828,0.8012232415902141
+138,Amazon,Count Vectorizer,on,off,lemmitizer,logreg_classifier,0.7727272727272727,0.8133333333333334,0.7218934911242604,0.7648902821316614
+139,Amazon,Count Vectorizer,on,off,stemmer,logreg_classifier,0.7909090909090909,0.8205128205128205,0.757396449704142,0.7876923076923076
+140,Amazon,Count Vectorizer,on,off,turned off,logreg_classifier,0.7787878787878788,0.8116883116883117,0.7396449704142012,0.7739938080495355
+141,Amazon,Count Vectorizer,off,off,lemmitizer,logreg_classifier,0.806060606060606,0.8343949044585988,0.7751479289940828,0.8036809815950919
+142,Amazon,Count Vectorizer,off,off,stemmer,logreg_classifier,0.8272727272727273,0.8414634146341463,0.8165680473372781,0.8288288288288288
+143,Amazon,Count Vectorizer,off,off,turned off,logreg_classifier,0.8151515151515152,0.8461538461538461,0.7810650887573964,0.8123076923076922
+144,IMDb,Tfidf,on,on,lemmitizer,NaiveBayes,0.7813765182186235,0.7925925925925926,0.8045112781954887,0.7985074626865671
+145,IMDb,Tfidf,on,on,stemmer,NaiveBayes,0.8016194331983806,0.795774647887324,0.849624060150376,0.8218181818181818
+146,IMDb,Tfidf,on,on,turned off,NaiveBayes,0.7975708502024291,0.8074074074074075,0.8195488721804511,0.8134328358208956
+147,IMDb,Tfidf,off,on,lemmitizer,NaiveBayes,0.7732793522267206,0.7769784172661871,0.8120300751879699,0.7941176470588235
+148,IMDb,Tfidf,off,on,stemmer,NaiveBayes,0.7975708502024291,0.8029197080291971,0.8270676691729323,0.8148148148148149
+149,IMDb,Tfidf,off,on,turned off,NaiveBayes,0.7611336032388664,0.7720588235294118,0.7894736842105263,0.7806691449814126
+150,IMDb,Tfidf,on,off,lemmitizer,NaiveBayes,0.7692307692307693,0.7602739726027398,0.8345864661654135,0.7956989247311828
+151,IMDb,Tfidf,on,off,stemmer,NaiveBayes,0.7975708502024291,0.7943262411347518,0.8421052631578947,0.8175182481751824
+152,IMDb,Tfidf,on,off,turned off,NaiveBayes,0.7894736842105263,0.7832167832167832,0.8421052631578947,0.8115942028985507
+153,IMDb,Tfidf,off,off,lemmitizer,NaiveBayes,0.7773279352226721,0.7785714285714286,0.8195488721804511,0.7985347985347986
+154,IMDb,Tfidf,off,off,stemmer,NaiveBayes,0.805668016194332,0.8014184397163121,0.849624060150376,0.8248175182481753
+155,IMDb,Tfidf,off,off,turned off,NaiveBayes,0.7813765182186235,0.7883211678832117,0.8120300751879699,0.7999999999999999
+156,IMDb,Count Vectorizer,on,on,lemmitizer,NaiveBayes,0.7246963562753036,0.7559055118110236,0.7218045112781954,0.7384615384615384
+157,IMDb,Count Vectorizer,on,on,stemmer,NaiveBayes,0.7692307692307693,0.8114754098360656,0.7443609022556391,0.7764705882352941
+158,IMDb,Count Vectorizer,on,on,turned off,NaiveBayes,0.7530364372469636,0.7769230769230769,0.7593984962406015,0.7680608365019013
+159,IMDb,Count Vectorizer,off,on,lemmitizer,NaiveBayes,0.7530364372469636,0.8050847457627118,0.7142857142857143,0.7569721115537849
+160,IMDb,Count Vectorizer,off,on,stemmer,NaiveBayes,0.7530364372469636,0.8050847457627118,0.7142857142857143,0.7569721115537849
+161,IMDb,Count Vectorizer,off,on,turned off,NaiveBayes,0.7611336032388664,0.8135593220338984,0.7218045112781954,0.7649402390438247
+162,IMDb,Count Vectorizer,on,off,lemmitizer,NaiveBayes,0.757085020242915,0.7786259541984732,0.7669172932330827,0.7727272727272726
+163,IMDb,Count Vectorizer,on,off,stemmer,NaiveBayes,0.7651821862348178,0.8,0.7518796992481203,0.7751937984496123
+164,IMDb,Count Vectorizer,on,off,turned off,NaiveBayes,0.7773279352226721,0.7954545454545454,0.7894736842105263,0.7924528301886792
+165,IMDb,Count Vectorizer,off,off,lemmitizer,NaiveBayes,0.7732793522267206,0.8130081300813008,0.7518796992481203,0.7812499999999999
+166,IMDb,Count Vectorizer,off,off,stemmer,NaiveBayes,0.757085020242915,0.8067226890756303,0.7218045112781954,0.7619047619047619
+167,IMDb,Count Vectorizer,off,off,turned off,NaiveBayes,0.7935222672064778,0.8306451612903226,0.7744360902255639,0.8015564202334631
+168,IMDb,Tfidf,on,on,lemmitizer,Support Vector Machine,0.7854251012145749,0.7816901408450704,0.8345864661654135,0.8072727272727273
+169,IMDb,Tfidf,on,on,stemmer,Support Vector Machine,0.7894736842105263,0.7832167832167832,0.8421052631578947,0.8115942028985507
+170,IMDb,Tfidf,on,on,turned off,Support Vector Machine,0.7813765182186235,0.7801418439716312,0.8270676691729323,0.8029197080291971
+171,IMDb,Tfidf,off,on,lemmitizer,Support Vector Machine,0.7692307692307693,0.7676056338028169,0.8195488721804511,0.7927272727272727
+172,IMDb,Tfidf,off,on,stemmer,Support Vector Machine,0.7975708502024291,0.7985611510791367,0.8345864661654135,0.8161764705882353
+173,IMDb,Tfidf,off,on,turned off,Support Vector Machine,0.7732793522267206,0.7730496453900709,0.8195488721804511,0.7956204379562043
+174,IMDb,Tfidf,on,off,lemmitizer,Support Vector Machine,0.7692307692307693,0.7602739726027398,0.8345864661654135,0.7956989247311828
+175,IMDb,Tfidf,on,off,stemmer,Support Vector Machine,0.8016194331983806,0.7876712328767124,0.8646616541353384,0.8243727598566307
+176,IMDb,Tfidf,on,off,turned off,Support Vector Machine,0.7894736842105263,0.7793103448275862,0.849624060150376,0.8129496402877697
+177,IMDb,Tfidf,off,off,lemmitizer,Support Vector Machine,0.7692307692307693,0.7714285714285715,0.8120300751879699,0.7912087912087911
+178,IMDb,Tfidf,off,off,stemmer,Support Vector Machine,0.7935222672064778,0.7847222222222222,0.849624060150376,0.8158844765342961
+179,IMDb,Tfidf,off,off,turned off,Support Vector Machine,0.7732793522267206,0.7655172413793103,0.8345864661654135,0.7985611510791366
+180,IMDb,Count Vectorizer,on,on,lemmitizer,Support Vector Machine,0.7732793522267206,0.7984496124031008,0.7744360902255639,0.7862595419847329
+181,IMDb,Count Vectorizer,on,on,stemmer,Support Vector Machine,0.7813765182186235,0.7969924812030075,0.7969924812030075,0.7969924812030075
+182,IMDb,Count Vectorizer,on,on,turned off,Support Vector Machine,0.7651821862348178,0.8,0.7518796992481203,0.7751937984496123
+183,IMDb,Count Vectorizer,off,on,lemmitizer,Support Vector Machine,0.7327935222672065,0.7723577235772358,0.7142857142857143,0.7421875
+184,IMDb,Count Vectorizer,off,on,stemmer,Support Vector Machine,0.7530364372469636,0.7950819672131147,0.7293233082706767,0.7607843137254902
+185,IMDb,Count Vectorizer,off,on,turned off,Support Vector Machine,0.7206477732793523,0.7580645161290323,0.706766917293233,0.7315175097276264
+186,IMDb,Count Vectorizer,on,off,lemmitizer,Support Vector Machine,0.7408906882591093,0.7716535433070866,0.7368421052631579,0.7538461538461538
+187,IMDb,Count Vectorizer,on,off,stemmer,Support Vector Machine,0.7530364372469636,0.7769230769230769,0.7593984962406015,0.7680608365019013
+188,IMDb,Count Vectorizer,on,off,turned off,Support Vector Machine,0.7408906882591093,0.776,0.7293233082706767,0.751937984496124
+189,IMDb,Count Vectorizer,off,off,lemmitizer,Support Vector Machine,0.728744939271255,0.7661290322580645,0.7142857142857143,0.7392996108949416
+190,IMDb,Count Vectorizer,off,off,stemmer,Support Vector Machine,0.728744939271255,0.7661290322580645,0.7142857142857143,0.7392996108949416
+191,IMDb,Count Vectorizer,off,off,turned off,Support Vector Machine,0.6963562753036437,0.7301587301587301,0.6917293233082706,0.7104247104247103
+192,IMDb,Tfidf,on,on,lemmitizer,Decision Tree,0.6477732793522267,0.6402439024390244,0.7894736842105263,0.7070707070707071
+193,IMDb,Tfidf,on,on,stemmer,Decision Tree,0.6923076923076923,0.7522123893805309,0.6390977443609023,0.6910569105691057
+194,IMDb,Tfidf,on,on,turned off,Decision Tree,0.6518218623481782,0.6358381502890174,0.8270676691729323,0.7189542483660131
+195,IMDb,Tfidf,off,on,lemmitizer,Decision Tree,0.6194331983805668,0.6535433070866141,0.6240601503759399,0.6384615384615384
+196,IMDb,Tfidf,off,on,stemmer,Decision Tree,0.6194331983805668,0.6535433070866141,0.6240601503759399,0.6384615384615384
+197,IMDb,Tfidf,off,on,turned off,Decision Tree,0.6153846153846154,0.6610169491525424,0.5864661654135338,0.6215139442231076
+198,IMDb,Tfidf,on,off,lemmitizer,Decision Tree,0.6639676113360324,0.6582278481012658,0.7819548872180451,0.7147766323024055
+199,IMDb,Tfidf,on,off,stemmer,Decision Tree,0.7044534412955465,0.7586206896551724,0.6616541353383458,0.7068273092369477
+200,IMDb,Tfidf,on,off,turned off,Decision Tree,0.708502024291498,0.7520661157024794,0.6842105263157895,0.7165354330708662
+201,IMDb,Tfidf,off,off,lemmitizer,Decision Tree,0.6194331983805668,0.6423357664233577,0.6616541353383458,0.6518518518518518
+202,IMDb,Tfidf,off,off,stemmer,Decision Tree,0.6518218623481782,0.6666666666666666,0.706766917293233,0.6861313868613139
+203,IMDb,Tfidf,off,off,turned off,Decision Tree,0.6396761133603239,0.6692307692307692,0.6541353383458647,0.6615969581749049
+204,IMDb,Count Vectorizer,on,on,lemmitizer,Decision Tree,0.6923076923076923,0.6912751677852349,0.7744360902255639,0.7304964539007093
+205,IMDb,Count Vectorizer,on,on,stemmer,Decision Tree,0.7004048582995951,0.7006802721088435,0.7744360902255639,0.7357142857142858
+206,IMDb,Count Vectorizer,on,on,turned off,Decision Tree,0.6963562753036437,0.8085106382978723,0.5714285714285714,0.6696035242290749
+207,IMDb,Count Vectorizer,off,on,lemmitizer,Decision Tree,0.6356275303643725,0.6641221374045801,0.6541353383458647,0.6590909090909092
+208,IMDb,Count Vectorizer,off,on,stemmer,Decision Tree,0.6072874493927125,0.6363636363636364,0.631578947368421,0.6339622641509434
+209,IMDb,Count Vectorizer,off,on,turned off,Decision Tree,0.5951417004048583,0.632,0.5939849624060151,0.6124031007751938
+210,IMDb,Count Vectorizer,on,off,lemmitizer,Decision Tree,0.6720647773279352,0.7452830188679245,0.5939849624060151,0.6610878661087867
+211,IMDb,Count Vectorizer,on,off,stemmer,Decision Tree,0.7004048582995951,0.7006802721088435,0.7744360902255639,0.7357142857142858
+212,IMDb,Count Vectorizer,on,off,turned off,Decision Tree,0.7044534412955465,0.7631578947368421,0.6541353383458647,0.7044534412955465
+213,IMDb,Count Vectorizer,off,off,lemmitizer,Decision Tree,0.6194331983805668,0.6511627906976745,0.631578947368421,0.6412213740458015
+214,IMDb,Count Vectorizer,off,off,stemmer,Decision Tree,0.6194331983805668,0.656,0.6165413533834586,0.6356589147286821
+215,IMDb,Count Vectorizer,off,off,turned off,Decision Tree,0.6437246963562753,0.6991150442477876,0.5939849624060151,0.6422764227642276
+216,IMDb,Tfidf,on,on,lemmitizer,Random Forest,0.7449392712550608,0.85,0.6390977443609023,0.7296137339055794
+217,IMDb,Tfidf,on,on,stemmer,Random Forest,0.7449392712550608,0.8240740740740741,0.6691729323308271,0.7385892116182573
+218,IMDb,Tfidf,on,on,turned off,Random Forest,0.7327935222672065,0.819047619047619,0.6466165413533834,0.722689075630252
+219,IMDb,Tfidf,off,on,lemmitizer,Random Forest,0.6923076923076923,0.7244094488188977,0.6917293233082706,0.7076923076923076
+220,IMDb,Tfidf,off,on,stemmer,Random Forest,0.7044534412955465,0.7083333333333334,0.7669172932330827,0.7364620938628159
+221,IMDb,Tfidf,off,on,turned off,Random Forest,0.6761133603238867,0.7054263565891473,0.6842105263157895,0.6946564885496184
+222,IMDb,Tfidf,on,off,lemmitizer,Random Forest,0.7449392712550608,0.8431372549019608,0.6466165413533834,0.7319148936170213
+223,IMDb,Tfidf,on,off,stemmer,Random Forest,0.7327935222672065,0.8252427184466019,0.6390977443609023,0.7203389830508473
+224,IMDb,Tfidf,on,off,turned off,Random Forest,0.7327935222672065,0.819047619047619,0.6466165413533834,0.722689075630252
+225,IMDb,Tfidf,off,off,lemmitizer,Random Forest,0.6923076923076923,0.708029197080292,0.7293233082706767,0.7185185185185184
+226,IMDb,Tfidf,off,off,stemmer,Random Forest,0.6923076923076923,0.7244094488188977,0.6917293233082706,0.7076923076923076
+227,IMDb,Tfidf,off,off,turned off,Random Forest,0.6437246963562753,0.6717557251908397,0.6616541353383458,0.6666666666666666
+228,IMDb,Count Vectorizer,on,on,lemmitizer,Random Forest,0.728744939271255,0.7946428571428571,0.6691729323308271,0.726530612244898
+229,IMDb,Count Vectorizer,on,on,stemmer,Random Forest,0.728744939271255,0.7704918032786885,0.706766917293233,0.7372549019607842
+230,IMDb,Count Vectorizer,on,on,turned off,Random Forest,0.7044534412955465,0.7777777777777778,0.631578947368421,0.6970954356846473
+231,IMDb,Count Vectorizer,off,on,lemmitizer,Random Forest,0.7206477732793523,0.7461538461538462,0.7293233082706767,0.7376425855513308
+232,IMDb,Count Vectorizer,off,on,stemmer,Random Forest,0.7368421052631579,0.765625,0.7368421052631579,0.7509578544061302
+233,IMDb,Count Vectorizer,off,on,turned off,Random Forest,0.7044534412955465,0.734375,0.706766917293233,0.7203065134099617
+234,IMDb,Count Vectorizer,on,off,lemmitizer,Random Forest,0.7044534412955465,0.734375,0.706766917293233,0.7203065134099617
+235,IMDb,Count Vectorizer,on,off,stemmer,Random Forest,0.708502024291498,0.7364341085271318,0.7142857142857143,0.7251908396946564
+236,IMDb,Count Vectorizer,on,off,turned off,Random Forest,0.7246963562753036,0.7981651376146789,0.6541353383458647,0.71900826446281
+237,IMDb,Count Vectorizer,off,off,lemmitizer,Random Forest,0.6882591093117408,0.71875,0.6917293233082706,0.7049808429118773
+238,IMDb,Count Vectorizer,off,off,stemmer,Random Forest,0.757085020242915,0.7744360902255639,0.7744360902255639,0.7744360902255639
+239,IMDb,Count Vectorizer,off,off,turned off,Random Forest,0.6923076923076923,0.7209302325581395,0.6992481203007519,0.7099236641221374
+240,IMDb,Tfidf,on,on,lemmitizer,XGBoost,0.6558704453441295,0.6290322580645161,0.8796992481203008,0.7335423197492165
+241,IMDb,Tfidf,on,on,stemmer,XGBoost,0.6882591093117408,0.7258064516129032,0.6766917293233082,0.7003891050583658
+242,IMDb,Tfidf,on,on,turned off,XGBoost,0.6680161943319838,0.6321243523316062,0.9172932330827067,0.7484662576687117
+243,IMDb,Tfidf,off,on,lemmitizer,XGBoost,0.6396761133603239,0.6692307692307692,0.6541353383458647,0.6615969581749049
+244,IMDb,Tfidf,off,on,stemmer,XGBoost,0.6761133603238867,0.7086614173228346,0.6766917293233082,0.6923076923076923
+245,IMDb,Tfidf,off,on,turned off,XGBoost,0.6356275303643725,0.6692913385826772,0.6390977443609023,0.6538461538461539
+246,IMDb,Tfidf,on,off,lemmitizer,XGBoost,0.6720647773279352,0.7321428571428571,0.6165413533834586,0.6693877551020407
+247,IMDb,Tfidf,on,off,stemmer,XGBoost,0.6680161943319838,0.704,0.6616541353383458,0.6821705426356589
+248,IMDb,Tfidf,on,off,turned off,XGBoost,0.6720647773279352,0.6313131313131313,0.9398496240601504,0.755287009063444
+249,IMDb,Tfidf,off,off,lemmitizer,XGBoost,0.659919028340081,0.7058823529411765,0.631578947368421,0.6666666666666667
+250,IMDb,Tfidf,off,off,stemmer,XGBoost,0.6356275303643725,0.6747967479674797,0.6240601503759399,0.6484375000000001
+251,IMDb,Tfidf,off,off,turned off,XGBoost,0.6234817813765182,0.6639344262295082,0.6090225563909775,0.6352941176470588
+252,IMDb,Count Vectorizer,on,on,lemmitizer,XGBoost,0.6761133603238867,0.6417112299465241,0.9022556390977443,0.7500000000000001
+253,IMDb,Count Vectorizer,on,on,stemmer,XGBoost,0.708502024291498,0.6631016042780749,0.9323308270676691,0.775
+254,IMDb,Count Vectorizer,on,on,turned off,XGBoost,0.6680161943319838,0.6321243523316062,0.9172932330827067,0.7484662576687117
+255,IMDb,Count Vectorizer,off,on,lemmitizer,XGBoost,0.6720647773279352,0.7131147540983607,0.6541353383458647,0.6823529411764705
+256,IMDb,Count Vectorizer,off,on,stemmer,XGBoost,0.6963562753036437,0.7543859649122807,0.6466165413533834,0.6963562753036437
+257,IMDb,Count Vectorizer,off,on,turned off,XGBoost,0.6558704453441295,0.6967213114754098,0.6390977443609023,0.6666666666666667
+258,IMDb,Count Vectorizer,on,off,lemmitizer,XGBoost,0.6882591093117408,0.6428571428571429,0.9473684210526315,0.7659574468085106
+259,IMDb,Count Vectorizer,on,off,stemmer,XGBoost,0.6923076923076923,0.7478260869565218,0.6466165413533834,0.6935483870967741
+260,IMDb,Count Vectorizer,on,off,turned off,XGBoost,0.680161943319838,0.6377551020408163,0.9398496240601504,0.7598784194528875
+261,IMDb,Count Vectorizer,off,off,lemmitizer,XGBoost,0.6356275303643725,0.6776859504132231,0.6165413533834586,0.6456692913385825
+262,IMDb,Count Vectorizer,off,off,stemmer,XGBoost,0.6680161943319838,0.7339449541284404,0.6015037593984962,0.6611570247933884
+263,IMDb,Count Vectorizer,off,off,turned off,XGBoost,0.631578947368421,0.6721311475409836,0.6165413533834586,0.6431372549019607
+264,IMDb,Tfidf,on,on,lemmitizer,logreg_classifier,0.7773279352226721,0.7708333333333334,0.8345864661654135,0.8014440433212997
+265,IMDb,Tfidf,on,on,stemmer,logreg_classifier,0.7813765182186235,0.7687074829931972,0.849624060150376,0.8071428571428572
+266,IMDb,Tfidf,on,on,turned off,logreg_classifier,0.7732793522267206,0.7619047619047619,0.8421052631578947,0.8
+267,IMDb,Tfidf,off,on,lemmitizer,logreg_classifier,0.7408906882591093,0.7379310344827587,0.8045112781954887,0.7697841726618705
+268,IMDb,Tfidf,off,on,stemmer,logreg_classifier,0.7611336032388664,0.7569444444444444,0.8195488721804511,0.7870036101083032
+269,IMDb,Tfidf,off,on,turned off,logreg_classifier,0.7449392712550608,0.7464788732394366,0.7969924812030075,0.7709090909090909
+270,IMDb,Tfidf,on,off,lemmitizer,logreg_classifier,0.7773279352226721,0.7708333333333334,0.8345864661654135,0.8014440433212997
+271,IMDb,Tfidf,on,off,stemmer,logreg_classifier,0.7975708502024291,0.7902097902097902,0.849624060150376,0.8188405797101449
+272,IMDb,Tfidf,on,off,turned off,logreg_classifier,0.7692307692307693,0.7567567567567568,0.8421052631578947,0.797153024911032
+273,IMDb,Tfidf,off,off,lemmitizer,logreg_classifier,0.7530364372469636,0.7535211267605634,0.8045112781954887,0.7781818181818182
+274,IMDb,Tfidf,off,off,stemmer,logreg_classifier,0.7854251012145749,0.7816901408450704,0.8345864661654135,0.8072727272727273
+275,IMDb,Tfidf,off,off,turned off,logreg_classifier,0.7651821862348178,0.7622377622377622,0.8195488721804511,0.7898550724637682
+276,IMDb,Count Vectorizer,on,on,lemmitizer,logreg_classifier,0.7692307692307693,0.7878787878787878,0.7819548872180451,0.7849056603773584
+277,IMDb,Count Vectorizer,on,on,stemmer,logreg_classifier,0.7894736842105263,0.8,0.8120300751879699,0.8059701492537314
+278,IMDb,Count Vectorizer,on,on,turned off,logreg_classifier,0.7530364372469636,0.7686567164179104,0.7744360902255639,0.7715355805243446
+279,IMDb,Count Vectorizer,off,on,lemmitizer,logreg_classifier,0.7246963562753036,0.7480916030534351,0.7368421052631579,0.7424242424242424
+280,IMDb,Count Vectorizer,off,on,stemmer,logreg_classifier,0.757085020242915,0.7829457364341085,0.7593984962406015,0.7709923664122136
+281,IMDb,Count Vectorizer,off,on,turned off,logreg_classifier,0.7206477732793523,0.753968253968254,0.7142857142857143,0.7335907335907336
+282,IMDb,Count Vectorizer,on,off,lemmitizer,logreg_classifier,0.8016194331983806,0.8134328358208955,0.8195488721804511,0.8164794007490638
+283,IMDb,Count Vectorizer,on,off,stemmer,logreg_classifier,0.7773279352226721,0.7910447761194029,0.7969924812030075,0.7940074906367041
+284,IMDb,Count Vectorizer,on,off,turned off,logreg_classifier,0.7530364372469636,0.7769230769230769,0.7593984962406015,0.7680608365019013
+285,IMDb,Count Vectorizer,off,off,lemmitizer,logreg_classifier,0.7327935222672065,0.7596899224806202,0.7368421052631579,0.7480916030534351
+286,IMDb,Count Vectorizer,off,off,stemmer,logreg_classifier,0.757085020242915,0.792,0.7443609022556391,0.7674418604651163
+287,IMDb,Count Vectorizer,off,off,turned off,logreg_classifier,0.7246963562753036,0.7559055118110236,0.7218045112781954,0.7384615384615384
+288,Yelp,Tfidf,on,on,lemmitizer,NaiveBayes,0.7696969696969697,0.693069306930693,0.9090909090909091,0.7865168539325842
+289,Yelp,Tfidf,on,on,stemmer,NaiveBayes,0.7787878787878788,0.7098445595854922,0.8896103896103896,0.7896253602305476
+290,Yelp,Tfidf,on,on,turned off,NaiveBayes,0.7727272727272727,0.700507614213198,0.8961038961038961,0.7863247863247862
+291,Yelp,Tfidf,off,on,lemmitizer,NaiveBayes,0.8121212121212121,0.7527472527472527,0.8896103896103896,0.8154761904761906
+292,Yelp,Tfidf,off,on,stemmer,NaiveBayes,0.8181818181818182,0.7582417582417582,0.8961038961038961,0.8214285714285714
+293,Yelp,Tfidf,off,on,turned off,NaiveBayes,0.8242424242424242,0.7666666666666667,0.8961038961038961,0.8263473053892216
+294,Yelp,Tfidf,on,off,lemmitizer,NaiveBayes,0.7727272727272727,0.700507614213198,0.8961038961038961,0.7863247863247862
+295,Yelp,Tfidf,on,off,stemmer,NaiveBayes,0.7666666666666667,0.6954314720812182,0.8896103896103896,0.7806267806267806
+296,Yelp,Tfidf,on,off,turned off,NaiveBayes,0.7575757575757576,0.6831683168316832,0.8961038961038961,0.7752808988764045
+297,Yelp,Tfidf,off,off,lemmitizer,NaiveBayes,0.8121212121212121,0.7527472527472527,0.8896103896103896,0.8154761904761906
+298,Yelp,Tfidf,off,off,stemmer,NaiveBayes,0.8090909090909091,0.7513812154696132,0.8831168831168831,0.8119402985074627
+299,Yelp,Tfidf,off,off,turned off,NaiveBayes,0.8121212121212121,0.7555555555555555,0.8831168831168831,0.8143712574850299
+300,Yelp,Count Vectorizer,on,on,lemmitizer,NaiveBayes,0.7757575757575758,0.7127659574468085,0.8701298701298701,0.783625730994152
+301,Yelp,Count Vectorizer,on,on,stemmer,NaiveBayes,0.7848484848484848,0.7243243243243244,0.8701298701298701,0.7905604719764012
+302,Yelp,Count Vectorizer,on,on,turned off,NaiveBayes,0.7818181818181819,0.7180851063829787,0.8766233766233766,0.7894736842105263
+303,Yelp,Count Vectorizer,off,on,lemmitizer,NaiveBayes,0.8,0.7558139534883721,0.8441558441558441,0.7975460122699386
+304,Yelp,Count Vectorizer,off,on,stemmer,NaiveBayes,0.8090909090909091,0.7630057803468208,0.8571428571428571,0.8073394495412844
+305,Yelp,Count Vectorizer,off,on,turned off,NaiveBayes,0.8,0.7558139534883721,0.8441558441558441,0.7975460122699386
+306,Yelp,Count Vectorizer,on,off,lemmitizer,NaiveBayes,0.7636363636363637,0.7021276595744681,0.8571428571428571,0.7719298245614036
+307,Yelp,Count Vectorizer,on,off,stemmer,NaiveBayes,0.7636363636363637,0.7043010752688172,0.8506493506493507,0.7705882352941177
+308,Yelp,Count Vectorizer,on,off,turned off,NaiveBayes,0.7727272727272727,0.7112299465240641,0.8636363636363636,0.780058651026393
+309,Yelp,Count Vectorizer,off,off,lemmitizer,NaiveBayes,0.806060606060606,0.7647058823529411,0.8441558441558441,0.8024691358024691
+310,Yelp,Count Vectorizer,off,off,stemmer,NaiveBayes,0.806060606060606,0.7678571428571429,0.8376623376623377,0.8012422360248447
+311,Yelp,Count Vectorizer,off,off,turned off,NaiveBayes,0.803030303030303,0.7664670658682635,0.8311688311688312,0.7975077881619937
+312,Yelp,Tfidf,on,on,lemmitizer,Support Vector Machine,0.7666666666666667,0.7251461988304093,0.8051948051948052,0.763076923076923
+313,Yelp,Tfidf,on,on,stemmer,Support Vector Machine,0.7787878787878788,0.7368421052631579,0.8181818181818182,0.7753846153846154
+314,Yelp,Tfidf,on,on,turned off,Support Vector Machine,0.7727272727272727,0.7337278106508875,0.8051948051948052,0.7678018575851394
+315,Yelp,Tfidf,off,on,lemmitizer,Support Vector Machine,0.8333333333333334,0.8074534161490683,0.8441558441558441,0.8253968253968254
+316,Yelp,Tfidf,off,on,stemmer,Support Vector Machine,0.8424242424242424,0.81875,0.8506493506493507,0.8343949044585987
+317,Yelp,Tfidf,off,on,turned off,Support Vector Machine,0.8454545454545455,0.8159509202453987,0.8636363636363636,0.8391167192429022
+318,Yelp,Tfidf,on,off,lemmitizer,Support Vector Machine,0.7696969696969697,0.7349397590361446,0.7922077922077922,0.7625
+319,Yelp,Tfidf,on,off,stemmer,Support Vector Machine,0.7757575757575758,0.7409638554216867,0.7987012987012987,0.7687500000000002
+320,Yelp,Tfidf,on,off,turned off,Support Vector Machine,0.7575757575757576,0.725609756097561,0.7727272727272727,0.7484276729559748
+321,Yelp,Tfidf,off,off,lemmitizer,Support Vector Machine,0.8484848484848485,0.825,0.8571428571428571,0.8407643312101911
+322,Yelp,Tfidf,off,off,stemmer,Support Vector Machine,0.8424242424242424,0.8227848101265823,0.8441558441558441,0.8333333333333334
+323,Yelp,Tfidf,off,off,turned off,Support Vector Machine,0.8454545454545455,0.8121212121212121,0.8701298701298701,0.8401253918495296
+324,Yelp,Count Vectorizer,on,on,lemmitizer,Support Vector Machine,0.7787878787878788,0.7425149700598802,0.8051948051948052,0.7725856697819314
+325,Yelp,Count Vectorizer,on,on,stemmer,Support Vector Machine,0.7787878787878788,0.7425149700598802,0.8051948051948052,0.7725856697819314
+326,Yelp,Count Vectorizer,on,on,turned off,Support Vector Machine,0.796969696969697,0.7668711656441718,0.8116883116883117,0.7886435331230284
+327,Yelp,Count Vectorizer,off,on,lemmitizer,Support Vector Machine,0.803030303030303,0.7633136094674556,0.8376623376623377,0.7987616099071208
+328,Yelp,Count Vectorizer,off,on,stemmer,Support Vector Machine,0.8090909090909091,0.7791411042944786,0.8246753246753247,0.8012618296529967
+329,Yelp,Count Vectorizer,off,on,turned off,Support Vector Machine,0.806060606060606,0.7710843373493976,0.8311688311688312,0.8
+330,Yelp,Count Vectorizer,on,off,lemmitizer,Support Vector Machine,0.7484848484848485,0.7151515151515152,0.7662337662337663,0.7398119122257054
+331,Yelp,Count Vectorizer,on,off,stemmer,Support Vector Machine,0.7636363636363637,0.7317073170731707,0.7792207792207793,0.7547169811320754
+332,Yelp,Count Vectorizer,on,off,turned off,Support Vector Machine,0.7636363636363637,0.740506329113924,0.7597402597402597,0.7499999999999999
+333,Yelp,Count Vectorizer,off,off,lemmitizer,Support Vector Machine,0.8212121212121212,0.7810650887573964,0.8571428571428571,0.8173374613003095
+334,Yelp,Count Vectorizer,off,off,stemmer,Support Vector Machine,0.8151515151515152,0.7784431137724551,0.8441558441558441,0.8099688473520248
+335,Yelp,Count Vectorizer,off,off,turned off,Support Vector Machine,0.8090909090909091,0.7692307692307693,0.8441558441558441,0.8049535603715171
+336,Yelp,Tfidf,on,on,lemmitizer,Decision Tree,0.7272727272727273,0.7025316455696202,0.7207792207792207,0.7115384615384615
+337,Yelp,Tfidf,on,on,stemmer,Decision Tree,0.7575757575757576,0.7534246575342466,0.7142857142857143,0.7333333333333334
+338,Yelp,Tfidf,on,on,turned off,Decision Tree,0.7212121212121212,0.7094594594594594,0.6818181818181818,0.6953642384105959
+339,Yelp,Tfidf,off,on,lemmitizer,Decision Tree,0.7757575757575758,0.7666666666666667,0.7467532467532467,0.7565789473684211
+340,Yelp,Tfidf,off,on,stemmer,Decision Tree,0.7484848484848485,0.7320261437908496,0.7272727272727273,0.729641693811075
+341,Yelp,Tfidf,off,on,turned off,Decision Tree,0.7848484848484848,0.7712418300653595,0.7662337662337663,0.7687296416938111
+342,Yelp,Tfidf,on,off,lemmitizer,Decision Tree,0.7212121212121212,0.6987179487179487,0.7077922077922078,0.7032258064516129
+343,Yelp,Tfidf,on,off,stemmer,Decision Tree,0.7242424242424242,0.7032258064516129,0.7077922077922078,0.7055016181229774
+344,Yelp,Tfidf,on,off,turned off,Decision Tree,0.7424242424242424,0.7197452229299363,0.7337662337662337,0.7266881028938905
+345,Yelp,Tfidf,off,off,lemmitizer,Decision Tree,0.7636363636363637,0.7878787878787878,0.6753246753246753,0.7272727272727273
+346,Yelp,Tfidf,off,off,stemmer,Decision Tree,0.703030303030303,0.7028985507246377,0.6298701298701299,0.6643835616438356
+347,Yelp,Tfidf,off,off,turned off,Decision Tree,0.7636363636363637,0.7714285714285715,0.7012987012987013,0.7346938775510204
+348,Yelp,Count Vectorizer,on,on,lemmitizer,Decision Tree,0.6696969696969697,0.643312101910828,0.6558441558441559,0.6495176848874598
+349,Yelp,Count Vectorizer,on,on,stemmer,Decision Tree,0.7212121212121212,0.7094594594594594,0.6818181818181818,0.6953642384105959
+350,Yelp,Count Vectorizer,on,on,turned off,Decision Tree,0.703030303030303,0.6866666666666666,0.6688311688311688,0.6776315789473684
+351,Yelp,Count Vectorizer,off,on,lemmitizer,Decision Tree,0.7606060606060606,0.8099173553719008,0.6363636363636364,0.7127272727272727
+352,Yelp,Count Vectorizer,off,on,stemmer,Decision Tree,0.7575757575757576,0.7605633802816901,0.7012987012987013,0.7297297297297298
+353,Yelp,Count Vectorizer,off,on,turned off,Decision Tree,0.7666666666666667,0.7730496453900709,0.7077922077922078,0.7389830508474576
+354,Yelp,Count Vectorizer,on,off,lemmitizer,Decision Tree,0.6727272727272727,0.6513157894736842,0.6428571428571429,0.6470588235294118
+355,Yelp,Count Vectorizer,on,off,stemmer,Decision Tree,0.6909090909090909,0.6830985915492958,0.6298701298701299,0.6554054054054054
+356,Yelp,Count Vectorizer,on,off,turned off,Decision Tree,0.6848484848484848,0.668918918918919,0.6428571428571429,0.6556291390728477
+357,Yelp,Count Vectorizer,off,off,lemmitizer,Decision Tree,0.7727272727272727,0.7801418439716312,0.7142857142857143,0.7457627118644068
+358,Yelp,Count Vectorizer,off,off,stemmer,Decision Tree,0.7515151515151515,0.7571428571428571,0.6883116883116883,0.7210884353741497
+359,Yelp,Count Vectorizer,off,off,turned off,Decision Tree,0.7484848484848485,0.7448275862068966,0.7012987012987013,0.7224080267558528
+360,Yelp,Tfidf,on,on,lemmitizer,Random Forest,0.7909090909090909,0.8148148148148148,0.7142857142857143,0.7612456747404844
+361,Yelp,Tfidf,on,on,stemmer,Random Forest,0.8,0.8188405797101449,0.7337662337662337,0.773972602739726
+362,Yelp,Tfidf,on,on,turned off,Random Forest,0.803030303030303,0.8156028368794326,0.7467532467532467,0.7796610169491525
+363,Yelp,Tfidf,off,on,lemmitizer,Random Forest,0.7909090909090909,0.7707006369426752,0.7857142857142857,0.7781350482315113
+364,Yelp,Tfidf,off,on,stemmer,Random Forest,0.8,0.7784810126582279,0.7987012987012987,0.7884615384615383
+365,Yelp,Tfidf,off,on,turned off,Random Forest,0.7545454545454545,0.738562091503268,0.7337662337662337,0.736156351791531
+366,Yelp,Tfidf,on,off,lemmitizer,Random Forest,0.7818181818181819,0.8059701492537313,0.7012987012987013,0.75
+367,Yelp,Tfidf,on,off,stemmer,Random Forest,0.803030303030303,0.8248175182481752,0.7337662337662337,0.7766323024054982
+368,Yelp,Tfidf,on,off,turned off,Random Forest,0.7878787878787878,0.8134328358208955,0.7077922077922078,0.7569444444444444
+369,Yelp,Tfidf,off,off,lemmitizer,Random Forest,0.8090909090909091,0.7791411042944786,0.8246753246753247,0.8012618296529967
+370,Yelp,Tfidf,off,off,stemmer,Random Forest,0.803030303030303,0.7730061349693251,0.8181818181818182,0.7949526813880126
+371,Yelp,Tfidf,off,off,turned off,Random Forest,0.7878787878787878,0.7592592592592593,0.7987012987012987,0.7784810126582278
+372,Yelp,Count Vectorizer,on,on,lemmitizer,Random Forest,0.7696969696969697,0.7746478873239436,0.7142857142857143,0.7432432432432432
+373,Yelp,Count Vectorizer,on,on,stemmer,Random Forest,0.7727272727272727,0.7801418439716312,0.7142857142857143,0.7457627118644068
+374,Yelp,Count Vectorizer,on,on,turned off,Random Forest,0.7636363636363637,0.7923076923076923,0.6688311688311688,0.7253521126760563
+375,Yelp,Count Vectorizer,off,on,lemmitizer,Random Forest,0.796969696969697,0.7668711656441718,0.8116883116883117,0.7886435331230284
+376,Yelp,Count Vectorizer,off,on,stemmer,Random Forest,0.806060606060606,0.7960526315789473,0.7857142857142857,0.7908496732026143
+377,Yelp,Count Vectorizer,off,on,turned off,Random Forest,0.806060606060606,0.7777777777777778,0.8181818181818182,0.7974683544303799
+378,Yelp,Count Vectorizer,on,off,lemmitizer,Random Forest,0.7606060606060606,0.7819548872180451,0.6753246753246753,0.7247386759581881
+379,Yelp,Count Vectorizer,on,off,stemmer,Random Forest,0.7575757575757576,0.7761194029850746,0.6753246753246753,0.7222222222222222
+380,Yelp,Count Vectorizer,on,off,turned off,Random Forest,0.7545454545454545,0.7786259541984732,0.6623376623376623,0.7157894736842105
+381,Yelp,Count Vectorizer,off,off,lemmitizer,Random Forest,0.796969696969697,0.7543859649122807,0.8376623376623377,0.7938461538461539
+382,Yelp,Count Vectorizer,off,off,stemmer,Random Forest,0.8151515151515152,0.7888198757763976,0.8246753246753247,0.8063492063492065
+383,Yelp,Count Vectorizer,off,off,turned off,Random Forest,0.803030303030303,0.7664670658682635,0.8311688311688312,0.7975077881619937
+384,Yelp,Tfidf,on,on,lemmitizer,XGBoost,0.7787878787878788,0.8347107438016529,0.6558441558441559,0.7345454545454545
+385,Yelp,Tfidf,on,on,stemmer,XGBoost,0.7545454545454545,0.8173913043478261,0.6103896103896104,0.6988847583643123
+386,Yelp,Tfidf,on,on,turned off,XGBoost,0.7757575757575758,0.8389830508474576,0.6428571428571429,0.7279411764705883
+387,Yelp,Tfidf,off,on,lemmitizer,XGBoost,0.7484848484848485,0.738255033557047,0.7142857142857143,0.7260726072607261
+388,Yelp,Tfidf,off,on,stemmer,XGBoost,0.7545454545454545,0.7417218543046358,0.7272727272727273,0.7344262295081967
+389,Yelp,Tfidf,off,on,turned off,XGBoost,0.7545454545454545,0.7417218543046358,0.7272727272727273,0.7344262295081967
+390,Yelp,Tfidf,on,off,lemmitizer,XGBoost,0.7666666666666667,0.8290598290598291,0.6298701298701299,0.7158671586715868
+391,Yelp,Tfidf,on,off,stemmer,XGBoost,0.7484848484848485,0.8256880733944955,0.5844155844155844,0.6844106463878327
+392,Yelp,Tfidf,on,off,turned off,XGBoost,0.7545454545454545,0.8348623853211009,0.5909090909090909,0.6920152091254753
+393,Yelp,Tfidf,off,off,lemmitizer,XGBoost,0.7484848484848485,0.7320261437908496,0.7272727272727273,0.729641693811075
+394,Yelp,Tfidf,off,off,stemmer,XGBoost,0.7727272727272727,0.7724137931034483,0.7272727272727273,0.7491638795986623
+395,Yelp,Tfidf,off,off,turned off,XGBoost,0.7393939393939394,0.7098765432098766,0.7467532467532467,0.7278481012658228
+396,Yelp,Count Vectorizer,on,on,lemmitizer,XGBoost,0.7757575757575758,0.8448275862068966,0.6363636363636364,0.7259259259259259
+397,Yelp,Count Vectorizer,on,on,stemmer,XGBoost,0.7545454545454545,0.8288288288288288,0.5974025974025974,0.6943396226415094
+398,Yelp,Count Vectorizer,on,on,turned off,XGBoost,0.7666666666666667,0.8468468468468469,0.6103896103896104,0.709433962264151
+399,Yelp,Count Vectorizer,off,on,lemmitizer,XGBoost,0.7606060606060606,0.7906976744186046,0.6623376623376623,0.7208480565371025
+400,Yelp,Count Vectorizer,off,on,stemmer,XGBoost,0.7666666666666667,0.8031496062992126,0.6623376623376623,0.7259786476868327
+401,Yelp,Count Vectorizer,off,on,turned off,XGBoost,0.7666666666666667,0.8031496062992126,0.6623376623376623,0.7259786476868327
+402,Yelp,Count Vectorizer,on,off,lemmitizer,XGBoost,0.7666666666666667,0.8468468468468469,0.6103896103896104,0.709433962264151
+403,Yelp,Count Vectorizer,on,off,stemmer,XGBoost,0.7606060606060606,0.8440366972477065,0.5974025974025974,0.699619771863118
+404,Yelp,Count Vectorizer,on,off,turned off,XGBoost,0.7606060606060606,0.8440366972477065,0.5974025974025974,0.699619771863118
+405,Yelp,Count Vectorizer,off,off,lemmitizer,XGBoost,0.7757575757575758,0.7898550724637681,0.7077922077922078,0.7465753424657534
+406,Yelp,Count Vectorizer,off,off,stemmer,XGBoost,0.7757575757575758,0.7857142857142857,0.7142857142857143,0.7482993197278911
+407,Yelp,Count Vectorizer,off,off,turned off,XGBoost,0.7787878787878788,0.8,0.7012987012987013,0.7474048442906576
+408,Yelp,Tfidf,on,on,lemmitizer,logreg_classifier,0.7787878787878788,0.7368421052631579,0.8181818181818182,0.7753846153846154
+409,Yelp,Tfidf,on,on,stemmer,logreg_classifier,0.7727272727272727,0.7257142857142858,0.8246753246753247,0.7720364741641338
+410,Yelp,Tfidf,on,on,turned off,logreg_classifier,0.803030303030303,0.7602339181286549,0.8441558441558441,0.7999999999999999
+411,Yelp,Tfidf,off,on,lemmitizer,logreg_classifier,0.8212121212121212,0.7878787878787878,0.8441558441558441,0.8150470219435736
+412,Yelp,Tfidf,off,on,stemmer,logreg_classifier,0.8151515151515152,0.7751479289940828,0.8506493506493507,0.8111455108359134
+413,Yelp,Tfidf,off,on,turned off,logreg_classifier,0.8212121212121212,0.7777777777777778,0.8636363636363636,0.8184615384615385
+414,Yelp,Tfidf,on,off,lemmitizer,logreg_classifier,0.7727272727272727,0.7309941520467836,0.8116883116883117,0.7692307692307693
+415,Yelp,Tfidf,on,off,stemmer,logreg_classifier,0.7666666666666667,0.7225433526011561,0.8116883116883117,0.764525993883792
+416,Yelp,Tfidf,on,off,turned off,logreg_classifier,0.7848484848484848,0.7426900584795322,0.8246753246753247,0.7815384615384615
+417,Yelp,Tfidf,off,off,lemmitizer,logreg_classifier,0.8181818181818182,0.7764705882352941,0.8571428571428571,0.8148148148148148
+418,Yelp,Tfidf,off,off,stemmer,logreg_classifier,0.8151515151515152,0.7751479289940828,0.8506493506493507,0.8111455108359134
+419,Yelp,Tfidf,off,off,turned off,logreg_classifier,0.8151515151515152,0.7751479289940828,0.8506493506493507,0.8111455108359134
+420,Yelp,Count Vectorizer,on,on,lemmitizer,logreg_classifier,0.7818181818181819,0.7469879518072289,0.8051948051948052,0.7749999999999999
+421,Yelp,Count Vectorizer,on,on,stemmer,logreg_classifier,0.7787878787878788,0.7396449704142012,0.8116883116883117,0.7739938080495355
+422,Yelp,Count Vectorizer,on,on,turned off,logreg_classifier,0.8090909090909091,0.7724550898203593,0.8376623376623377,0.8037383177570092
+423,Yelp,Count Vectorizer,off,on,lemmitizer,logreg_classifier,0.8272727272727273,0.8012422360248447,0.8376623376623377,0.8190476190476189
+424,Yelp,Count Vectorizer,off,on,stemmer,logreg_classifier,0.8303030303030303,0.8024691358024691,0.8441558441558441,0.8227848101265822
+425,Yelp,Count Vectorizer,off,on,turned off,logreg_classifier,0.8363636363636363,0.808641975308642,0.8506493506493507,0.8291139240506329
+426,Yelp,Count Vectorizer,on,off,lemmitizer,logreg_classifier,0.7757575757575758,0.7469135802469136,0.7857142857142857,0.7658227848101264
+427,Yelp,Count Vectorizer,on,off,stemmer,logreg_classifier,0.7757575757575758,0.7409638554216867,0.7987012987012987,0.7687500000000002
+428,Yelp,Count Vectorizer,on,off,turned off,logreg_classifier,0.7909090909090909,0.7607361963190185,0.8051948051948052,0.7823343848580442
+429,Yelp,Count Vectorizer,off,off,lemmitizer,logreg_classifier,0.8181818181818182,0.7797619047619048,0.8506493506493507,0.8136645962732919
+430,Yelp,Count Vectorizer,off,off,stemmer,logreg_classifier,0.8181818181818182,0.7831325301204819,0.8441558441558441,0.8124999999999999
+431,Yelp,Count Vectorizer,off,off,turned off,logreg_classifier,0.8151515151515152,0.7784431137724551,0.8441558441558441,0.8099688473520248
+432,Tweeter,Tfidf,on,on,lemmitizer,NaiveBayes,0.9627329192546584,0.0,0.0,0.0
+433,Tweeter,Tfidf,on,on,stemmer,NaiveBayes,0.9627329192546584,0.0,0.0,0.0
+434,Tweeter,Tfidf,on,on,turned off,NaiveBayes,0.9627329192546584,0.0,0.0,0.0
+435,Tweeter,Tfidf,off,on,lemmitizer,NaiveBayes,0.9627329192546584,0.0,0.0,0.0
+436,Tweeter,Tfidf,off,on,stemmer,NaiveBayes,0.9627329192546584,0.0,0.0,0.0
+437,Tweeter,Tfidf,off,on,turned off,NaiveBayes,0.9627329192546584,0.0,0.0,0.0
+438,Tweeter,Tfidf,on,off,lemmitizer,NaiveBayes,0.9627329192546584,0.0,0.0,0.0
+439,Tweeter,Tfidf,on,off,stemmer,NaiveBayes,0.9627329192546584,0.0,0.0,0.0
+440,Tweeter,Tfidf,on,off,turned off,NaiveBayes,0.9627329192546584,0.0,0.0,0.0
+441,Tweeter,Tfidf,off,off,lemmitizer,NaiveBayes,0.9627329192546584,0.0,0.0,0.0
+442,Tweeter,Tfidf,off,off,stemmer,NaiveBayes,0.9627329192546584,0.0,0.0,0.0
+443,Tweeter,Tfidf,off,off,turned off,NaiveBayes,0.9627329192546584,0.0,0.0,0.0
+444,Tweeter,Count Vectorizer,on,on,lemmitizer,NaiveBayes,0.9726708074534162,0.6818181818181818,0.5,0.576923076923077
+445,Tweeter,Count Vectorizer,on,on,stemmer,NaiveBayes,0.9751552795031055,0.7777777777777778,0.4666666666666667,0.5833333333333334
+446,Tweeter,Count Vectorizer,on,on,turned off,NaiveBayes,0.9701863354037267,0.6363636363636364,0.4666666666666667,0.5384615384615385
+447,Tweeter,Count Vectorizer,off,on,lemmitizer,NaiveBayes,0.9677018633540373,0.7,0.23333333333333334,0.35
+448,Tweeter,Count Vectorizer,off,on,stemmer,NaiveBayes,0.968944099378882,0.8571428571428571,0.2,0.32432432432432434
+449,Tweeter,Count Vectorizer,off,on,turned off,NaiveBayes,0.9664596273291925,0.6666666666666666,0.2,0.30769230769230765
+450,Tweeter,Count Vectorizer,on,off,lemmitizer,NaiveBayes,0.977639751552795,0.7727272727272727,0.5666666666666667,0.6538461538461539
+451,Tweeter,Count Vectorizer,on,off,stemmer,NaiveBayes,0.9801242236024845,0.8181818181818182,0.6,0.6923076923076923
+452,Tweeter,Count Vectorizer,on,off,turned off,NaiveBayes,0.9801242236024845,0.7916666666666666,0.6333333333333333,0.7037037037037038
+453,Tweeter,Count Vectorizer,off,off,lemmitizer,NaiveBayes,0.9677018633540373,0.7,0.23333333333333334,0.35
+454,Tweeter,Count Vectorizer,off,off,stemmer,NaiveBayes,0.968944099378882,0.7777777777777778,0.23333333333333334,0.35897435897435903
+455,Tweeter,Count Vectorizer,off,off,turned off,NaiveBayes,0.9677018633540373,0.7,0.23333333333333334,0.35
+456,Tweeter,Tfidf,on,on,lemmitizer,Support Vector Machine,0.991304347826087,0.896551724137931,0.8666666666666667,0.8813559322033899
+457,Tweeter,Tfidf,on,on,stemmer,Support Vector Machine,0.991304347826087,0.896551724137931,0.8666666666666667,0.8813559322033899
+458,Tweeter,Tfidf,on,on,turned off,Support Vector Machine,0.9900621118012423,0.8928571428571429,0.8333333333333334,0.8620689655172413
+459,Tweeter,Tfidf,off,on,lemmitizer,Support Vector Machine,0.9888198757763975,0.8888888888888888,0.8,0.8421052631578948
+460,Tweeter,Tfidf,off,on,stemmer,Support Vector Machine,0.9925465838509316,0.9,0.9,0.9
+461,Tweeter,Tfidf,off,on,turned off,Support Vector Machine,0.9875776397515528,0.8846153846153846,0.7666666666666667,0.8214285714285715
+462,Tweeter,Tfidf,on,off,lemmitizer,Support Vector Machine,0.9950310559006211,0.90625,0.9666666666666667,0.9354838709677419
+463,Tweeter,Tfidf,on,off,stemmer,Support Vector Machine,0.9950310559006211,0.8823529411764706,1.0,0.9375
+464,Tweeter,Tfidf,on,off,turned off,Support Vector Machine,0.9962732919254659,0.9090909090909091,1.0,0.9523809523809523
+465,Tweeter,Tfidf,off,off,lemmitizer,Support Vector Machine,0.9950310559006211,0.90625,0.9666666666666667,0.9354838709677419
+466,Tweeter,Tfidf,off,off,stemmer,Support Vector Machine,0.9950310559006211,0.90625,0.9666666666666667,0.9354838709677419
+467,Tweeter,Tfidf,off,off,turned off,Support Vector Machine,0.9950310559006211,0.90625,0.9666666666666667,0.9354838709677419
+468,Tweeter,Count Vectorizer,on,on,lemmitizer,Support Vector Machine,0.9900621118012423,0.8666666666666667,0.8666666666666667,0.8666666666666667
+469,Tweeter,Count Vectorizer,on,on,stemmer,Support Vector Machine,0.9900621118012423,0.8666666666666667,0.8666666666666667,0.8666666666666667
+470,Tweeter,Count Vectorizer,on,on,turned off,Support Vector Machine,0.9900621118012423,0.8666666666666667,0.8666666666666667,0.8666666666666667
+471,Tweeter,Count Vectorizer,off,on,lemmitizer,Support Vector Machine,0.9900621118012423,0.8928571428571429,0.8333333333333334,0.8620689655172413
+472,Tweeter,Count Vectorizer,off,on,stemmer,Support Vector Machine,0.9900621118012423,0.8666666666666667,0.8666666666666667,0.8666666666666667
+473,Tweeter,Count Vectorizer,off,on,turned off,Support Vector Machine,0.9900621118012423,0.8928571428571429,0.8333333333333334,0.8620689655172413
+474,Tweeter,Count Vectorizer,on,off,lemmitizer,Support Vector Machine,0.991304347826087,0.8484848484848485,0.9333333333333333,0.888888888888889
+475,Tweeter,Count Vectorizer,on,off,stemmer,Support Vector Machine,0.9925465838509316,0.875,0.9333333333333333,0.9032258064516129
+476,Tweeter,Count Vectorizer,on,off,turned off,Support Vector Machine,0.991304347826087,0.8484848484848485,0.9333333333333333,0.888888888888889
+477,Tweeter,Count Vectorizer,off,off,lemmitizer,Support Vector Machine,0.9937888198757764,0.8787878787878788,0.9666666666666667,0.9206349206349207
+478,Tweeter,Count Vectorizer,off,off,stemmer,Support Vector Machine,0.9925465838509316,0.875,0.9333333333333333,0.9032258064516129
+479,Tweeter,Count Vectorizer,off,off,turned off,Support Vector Machine,0.9937888198757764,0.8787878787878788,0.9666666666666667,0.9206349206349207
+480,Tweeter,Tfidf,on,on,lemmitizer,Decision Tree,0.9900621118012423,0.8666666666666667,0.8666666666666667,0.8666666666666667
+481,Tweeter,Tfidf,on,on,stemmer,Decision Tree,0.9900621118012423,0.84375,0.9,0.870967741935484
+482,Tweeter,Tfidf,on,on,turned off,Decision Tree,0.9937888198757764,0.9032258064516129,0.9333333333333333,0.9180327868852459
+483,Tweeter,Tfidf,off,on,lemmitizer,Decision Tree,0.9937888198757764,0.9032258064516129,0.9333333333333333,0.9180327868852459
+484,Tweeter,Tfidf,off,on,stemmer,Decision Tree,0.9925465838509316,0.9,0.9,0.9
+485,Tweeter,Tfidf,off,on,turned off,Decision Tree,0.9950310559006211,0.90625,0.9666666666666667,0.9354838709677419
+486,Tweeter,Tfidf,on,off,lemmitizer,Decision Tree,0.9937888198757764,0.9032258064516129,0.9333333333333333,0.9180327868852459
+487,Tweeter,Tfidf,on,off,stemmer,Decision Tree,0.991304347826087,0.896551724137931,0.8666666666666667,0.8813559322033899
+488,Tweeter,Tfidf,on,off,turned off,Decision Tree,0.9937888198757764,0.9032258064516129,0.9333333333333333,0.9180327868852459
+489,Tweeter,Tfidf,off,off,lemmitizer,Decision Tree,0.9962732919254659,0.9090909090909091,1.0,0.9523809523809523
+490,Tweeter,Tfidf,off,off,stemmer,Decision Tree,0.9962732919254659,0.9090909090909091,1.0,0.9523809523809523
+491,Tweeter,Tfidf,off,off,turned off,Decision Tree,0.9937888198757764,0.9032258064516129,0.9333333333333333,0.9180327868852459
+492,Tweeter,Count Vectorizer,on,on,lemmitizer,Decision Tree,0.9925465838509316,0.9,0.9,0.9
+493,Tweeter,Count Vectorizer,on,on,stemmer,Decision Tree,0.9937888198757764,0.9032258064516129,0.9333333333333333,0.9180327868852459
+494,Tweeter,Count Vectorizer,on,on,turned off,Decision Tree,0.991304347826087,0.896551724137931,0.8666666666666667,0.8813559322033899
+495,Tweeter,Count Vectorizer,off,on,lemmitizer,Decision Tree,0.9962732919254659,0.9354838709677419,0.9666666666666667,0.9508196721311476
+496,Tweeter,Count Vectorizer,off,on,stemmer,Decision Tree,0.9950310559006211,0.90625,0.9666666666666667,0.9354838709677419
+497,Tweeter,Count Vectorizer,off,on,turned off,Decision Tree,0.9950310559006211,0.9333333333333333,0.9333333333333333,0.9333333333333333
+498,Tweeter,Count Vectorizer,on,off,lemmitizer,Decision Tree,0.9950310559006211,0.8823529411764706,1.0,0.9375
+499,Tweeter,Count Vectorizer,on,off,stemmer,Decision Tree,0.9950310559006211,0.90625,0.9666666666666667,0.9354838709677419
+500,Tweeter,Count Vectorizer,on,off,turned off,Decision Tree,0.9950310559006211,0.90625,0.9666666666666667,0.9354838709677419
+501,Tweeter,Count Vectorizer,off,off,lemmitizer,Decision Tree,0.9950310559006211,0.9333333333333333,0.9333333333333333,0.9333333333333333
+502,Tweeter,Count Vectorizer,off,off,stemmer,Decision Tree,0.9937888198757764,0.9032258064516129,0.9333333333333333,0.9180327868852459
+503,Tweeter,Count Vectorizer,off,off,turned off,Decision Tree,0.9950310559006211,0.90625,0.9666666666666667,0.9354838709677419
+504,Tweeter,Tfidf,on,on,lemmitizer,Random Forest,0.9751552795031055,1.0,0.3333333333333333,0.5
+505,Tweeter,Tfidf,on,on,stemmer,Random Forest,0.9763975155279503,1.0,0.36666666666666664,0.5365853658536585
+506,Tweeter,Tfidf,on,on,turned off,Random Forest,0.968944099378882,1.0,0.16666666666666666,0.2857142857142857
+507,Tweeter,Tfidf,off,on,lemmitizer,Random Forest,0.9714285714285714,1.0,0.23333333333333334,0.37837837837837834
+508,Tweeter,Tfidf,off,on,stemmer,Random Forest,0.968944099378882,1.0,0.16666666666666666,0.2857142857142857
+509,Tweeter,Tfidf,off,on,turned off,Random Forest,0.9714285714285714,1.0,0.23333333333333334,0.37837837837837834
+510,Tweeter,Tfidf,on,off,lemmitizer,Random Forest,0.9788819875776398,1.0,0.43333333333333335,0.6046511627906976
+511,Tweeter,Tfidf,on,off,stemmer,Random Forest,0.9763975155279503,1.0,0.36666666666666664,0.5365853658536585
+512,Tweeter,Tfidf,on,off,turned off,Random Forest,0.9788819875776398,1.0,0.43333333333333335,0.6046511627906976
+513,Tweeter,Tfidf,off,off,lemmitizer,Random Forest,0.9726708074534162,1.0,0.26666666666666666,0.4210526315789474
+514,Tweeter,Tfidf,off,off,stemmer,Random Forest,0.9751552795031055,0.9166666666666666,0.36666666666666664,0.5238095238095238
+515,Tweeter,Tfidf,off,off,turned off,Random Forest,0.9751552795031055,1.0,0.3333333333333333,0.5
+516,Tweeter,Count Vectorizer,on,on,lemmitizer,Random Forest,0.9739130434782609,1.0,0.3,0.4615384615384615
+517,Tweeter,Count Vectorizer,on,on,stemmer,Random Forest,0.9701863354037267,0.875,0.23333333333333334,0.3684210526315789
+518,Tweeter,Count Vectorizer,on,on,turned off,Random Forest,0.9739130434782609,0.8461538461538461,0.36666666666666664,0.5116279069767441
+519,Tweeter,Count Vectorizer,off,on,lemmitizer,Random Forest,0.9664596273291925,1.0,0.1,0.18181818181818182
+520,Tweeter,Count Vectorizer,off,on,stemmer,Random Forest,0.9701863354037267,1.0,0.2,0.33333333333333337
+521,Tweeter,Count Vectorizer,off,on,turned off,Random Forest,0.9677018633540373,0.8333333333333334,0.16666666666666666,0.2777777777777778
+522,Tweeter,Count Vectorizer,on,off,lemmitizer,Random Forest,0.977639751552795,0.9285714285714286,0.43333333333333335,0.5909090909090909
+523,Tweeter,Count Vectorizer,on,off,stemmer,Random Forest,0.9726708074534162,1.0,0.26666666666666666,0.4210526315789474
+524,Tweeter,Count Vectorizer,on,off,turned off,Random Forest,0.9739130434782609,1.0,0.3,0.4615384615384615
+525,Tweeter,Count Vectorizer,off,off,lemmitizer,Random Forest,0.9701863354037267,1.0,0.2,0.33333333333333337
+526,Tweeter,Count Vectorizer,off,off,stemmer,Random Forest,0.9751552795031055,1.0,0.3333333333333333,0.5
+527,Tweeter,Count Vectorizer,off,off,turned off,Random Forest,0.9751552795031055,1.0,0.3333333333333333,0.5
+528,Tweeter,Tfidf,on,on,lemmitizer,XGBoost,0.991304347826087,0.8709677419354839,0.9,0.8852459016393444
+529,Tweeter,Tfidf,on,on,stemmer,XGBoost,0.9925465838509316,0.875,0.9333333333333333,0.9032258064516129
+530,Tweeter,Tfidf,on,on,turned off,XGBoost,0.9950310559006211,0.90625,0.9666666666666667,0.9354838709677419
+531,Tweeter,Tfidf,off,on,lemmitizer,XGBoost,0.9937888198757764,0.9032258064516129,0.9333333333333333,0.9180327868852459
+532,Tweeter,Tfidf,off,on,stemmer,XGBoost,0.9937888198757764,0.9032258064516129,0.9333333333333333,0.9180327868852459
+533,Tweeter,Tfidf,off,on,turned off,XGBoost,0.9962732919254659,0.9090909090909091,1.0,0.9523809523809523
+534,Tweeter,Tfidf,on,off,lemmitizer,XGBoost,0.9950310559006211,0.90625,0.9666666666666667,0.9354838709677419
+535,Tweeter,Tfidf,on,off,stemmer,XGBoost,0.9962732919254659,0.9354838709677419,0.9666666666666667,0.9508196721311476
+536,Tweeter,Tfidf,on,off,turned off,XGBoost,0.9937888198757764,0.9032258064516129,0.9333333333333333,0.9180327868852459
+537,Tweeter,Tfidf,off,off,lemmitizer,XGBoost,0.9962732919254659,0.9090909090909091,1.0,0.9523809523809523
+538,Tweeter,Tfidf,off,off,stemmer,XGBoost,0.9950310559006211,0.8823529411764706,1.0,0.9375
+539,Tweeter,Tfidf,off,off,turned off,XGBoost,0.9950310559006211,0.90625,0.9666666666666667,0.9354838709677419
+540,Tweeter,Count Vectorizer,on,on,lemmitizer,XGBoost,0.9925465838509316,0.9,0.9,0.9
+541,Tweeter,Count Vectorizer,on,on,stemmer,XGBoost,0.9925465838509316,0.9,0.9,0.9
+542,Tweeter,Count Vectorizer,on,on,turned off,XGBoost,0.9937888198757764,0.9032258064516129,0.9333333333333333,0.9180327868852459
+543,Tweeter,Count Vectorizer,off,on,lemmitizer,XGBoost,0.9937888198757764,0.9310344827586207,0.9,0.9152542372881356
+544,Tweeter,Count Vectorizer,off,on,stemmer,XGBoost,0.9925465838509316,0.9,0.9,0.9
+545,Tweeter,Count Vectorizer,off,on,turned off,XGBoost,0.9950310559006211,0.9333333333333333,0.9333333333333333,0.9333333333333333
+546,Tweeter,Count Vectorizer,on,off,lemmitizer,XGBoost,0.9925465838509316,0.9,0.9,0.9
+547,Tweeter,Count Vectorizer,on,off,stemmer,XGBoost,0.9937888198757764,0.9032258064516129,0.9333333333333333,0.9180327868852459
+548,Tweeter,Count Vectorizer,on,off,turned off,XGBoost,0.9925465838509316,0.9,0.9,0.9
+549,Tweeter,Count Vectorizer,off,off,lemmitizer,XGBoost,0.9962732919254659,0.9354838709677419,0.9666666666666667,0.9508196721311476
+550,Tweeter,Count Vectorizer,off,off,stemmer,XGBoost,0.9950310559006211,0.90625,0.9666666666666667,0.9354838709677419
+551,Tweeter,Count Vectorizer,off,off,turned off,XGBoost,0.9950310559006211,0.9333333333333333,0.9333333333333333,0.9333333333333333
+552,Tweeter,Tfidf,on,on,lemmitizer,logreg_classifier,0.9652173913043478,1.0,0.06666666666666667,0.125
+553,Tweeter,Tfidf,on,on,stemmer,logreg_classifier,0.9652173913043478,1.0,0.06666666666666667,0.125
+554,Tweeter,Tfidf,on,on,turned off,logreg_classifier,0.9652173913043478,1.0,0.06666666666666667,0.125
+555,Tweeter,Tfidf,off,on,lemmitizer,logreg_classifier,0.9639751552795031,1.0,0.03333333333333333,0.06451612903225806
+556,Tweeter,Tfidf,off,on,stemmer,logreg_classifier,0.9639751552795031,1.0,0.03333333333333333,0.06451612903225806
+557,Tweeter,Tfidf,off,on,turned off,logreg_classifier,0.9639751552795031,1.0,0.03333333333333333,0.06451612903225806
+558,Tweeter,Tfidf,on,off,lemmitizer,logreg_classifier,0.9652173913043478,1.0,0.06666666666666667,0.125
+559,Tweeter,Tfidf,on,off,stemmer,logreg_classifier,0.9652173913043478,1.0,0.06666666666666667,0.125
+560,Tweeter,Tfidf,on,off,turned off,logreg_classifier,0.9639751552795031,1.0,0.03333333333333333,0.06451612903225806
+561,Tweeter,Tfidf,off,off,lemmitizer,logreg_classifier,0.9652173913043478,1.0,0.06666666666666667,0.125
+562,Tweeter,Tfidf,off,off,stemmer,logreg_classifier,0.9639751552795031,1.0,0.03333333333333333,0.06451612903225806
+563,Tweeter,Tfidf,off,off,turned off,logreg_classifier,0.9652173913043478,1.0,0.06666666666666667,0.125
+564,Tweeter,Count Vectorizer,on,on,lemmitizer,logreg_classifier,0.9838509316770186,0.8695652173913043,0.6666666666666666,0.7547169811320754
+565,Tweeter,Count Vectorizer,on,on,stemmer,logreg_classifier,0.9838509316770186,0.8695652173913043,0.6666666666666666,0.7547169811320754
+566,Tweeter,Count Vectorizer,on,on,turned off,logreg_classifier,0.9838509316770186,0.8695652173913043,0.6666666666666666,0.7547169811320754
+567,Tweeter,Count Vectorizer,off,on,lemmitizer,logreg_classifier,0.986335403726708,0.9523809523809523,0.6666666666666666,0.7843137254901961
+568,Tweeter,Count Vectorizer,off,on,stemmer,logreg_classifier,0.9850931677018634,0.95,0.6333333333333333,0.7599999999999999
+569,Tweeter,Count Vectorizer,off,on,turned off,logreg_classifier,0.9850931677018634,0.95,0.6333333333333333,0.7599999999999999
+570,Tweeter,Count Vectorizer,on,off,lemmitizer,logreg_classifier,0.9900621118012423,0.8928571428571429,0.8333333333333334,0.8620689655172413
+571,Tweeter,Count Vectorizer,on,off,stemmer,logreg_classifier,0.9900621118012423,0.8928571428571429,0.8333333333333334,0.8620689655172413
+572,Tweeter,Count Vectorizer,on,off,turned off,logreg_classifier,0.9900621118012423,0.8928571428571429,0.8333333333333334,0.8620689655172413
+573,Tweeter,Count Vectorizer,off,off,lemmitizer,logreg_classifier,0.9937888198757764,0.9310344827586207,0.9,0.9152542372881356
+574,Tweeter,Count Vectorizer,off,off,stemmer,logreg_classifier,0.9937888198757764,0.9310344827586207,0.9,0.9152542372881356
+575,Tweeter,Count Vectorizer,off,off,turned off,logreg_classifier,0.9925465838509316,0.9285714285714286,0.8666666666666667,0.896551724137931
